@@ -63,3 +63,13 @@ In accordance with the **YottaFlex AI Candidate Project Submission Guidelines**,
 * **Prompt 4:**
   > *"Generate a comprehensive pytest suite covering happy path, empty input, malformed input, orphan foreign keys, duplicates, idempotent reruns, and benchmark plan verification."*
 * **Candidate Validation & Action:** Executed `pytest -v`; resolved Windows SQLite connection locking by wrapping database sessions in a safe context manager. Confirmed 17 out of 17 tests passed cleanly.
+
+### Prompt Session: Senior Data Engineer Code Review & Reconciliation Hardening
+* **Prompt 5:**
+  > *"Audit the existing Data Engineering project: investigate quarantine generation, replace the '>=' reconciliation heuristic with exact source-to-target accounting, prevent duplicate quarantine entries across reruns, implement row-level traceability, add tests for unexpected schema changes, partial failure/rollback/retry, and incremental items, and verify scalability at 2k, 25k, and 100k records."*
+* **Candidate Validation & Action:**
+  - Diagnosed that append-only quarantine inserts caused double-counting on reruns. Designed deterministic composite keys (`source_file:entity:row_index`) with `INSERT OR REPLACE` to ensure complete rerun idempotency for both fact tables and quarantine logs.
+  - Implemented exact equality reconciliation (`source == published + quarantined`), verifying that every source row has exactly one destination and reporting full error code diagnostics.
+  - Added schema constraint `model_config = {"extra": "forbid"}` to reject unexpected schema fields.
+  - Expanded automated test suite from 17 to 24 tests, verifying all pass with 100% success.
+  - Benchmarked at 2,000, 25,000, and 100,000 records, validating scalability and query acceleration up to 9.84x.

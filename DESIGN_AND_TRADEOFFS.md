@@ -118,11 +118,17 @@ The project tackles the four fundamental query inefficiencies in analytical data
   2. **Standard Query Planner:** Features an industry-standard cost-based query planner supporting `EXPLAIN QUERY PLAN`, covering indexes, composite B-trees, subquery co-routines, and strict foreign keys.
   3. **High Throughput:** Configured with `PRAGMA synchronous=NORMAL`, `PRAGMA journal_mode=WAL`, and a 64MB cache, easily handling 100,000+ records in under 5 seconds.
 
-### 3.2 Data Quality & Quarantine Architecture
+### 3.2 Data Quality, Quarantine Architecture & Reconciliation Fix
 * **Choice:** Two-phase validation with Pydantic and explicit dead-letter persistence.
-* **Design Pattern:**
-  - Fast fail: Invalid records do NOT crash the entire batch; they are segregated into `quarantine_records` alongside full raw JSON, specific failure code (`ERR_ORPHAN_CUSTOMER_ID`, `ERR_MALFORMED_ORDER_SCHEMA`, `ERR_DUPLICATE_ORDER_KEY`), and lineage metadata (`run_id`, `source_file`).
-  - Atomic commit: Valid target records and quarantine rows are committed in the same atomic database transaction, ensuring no orphan state occurs upon mid-batch failure.
+* **The Reconciliation Challenge & Root Cause Analysis:**
+  - In earlier iterations, the count check in reconciliation used `(target_orders + quarantined_orders >= source_order_cnt)`. This masked a subtle failure mode: when a batch was re-run (e.g. for idempotency testing or backfill), `quarantine_records` was appending new rows with randomized UUIDs.
+  - This caused quarantine rows to double across runs (e.g. 212 rows in run 1 became 424 rows in run 2), artificially inflating the sum and masking missing or double-counted data.
+* **The Architectural Fix:**
+  1. **Deterministic Composite Quarantine Keys:** `quarantine_id = f"{source_file}:{source_entity}:{row_idx}"` combined with `INSERT OR REPLACE INTO quarantine_records`. Rerunning the exact same source file safely updates the existing quarantine entry with the new run_id rather than duplicating it.
+  2. **Row-Level Lineage & Tracking:** `quarantine_records` explicitly records `source_row_index` and `source_record_id`.
+  3. **Strict Equality Invariant:** The reconciliation reconciles by run_id or source_file using strict equality: `source_count == published_count + quarantined_count` (zero `>=`).
+  4. **Double-Count & Unaccounted Detection:** Audits every single source row to prove that `set(published) ∩ set(quarantined) == ∅` and that every record has exactly one destination.
+  5. **Incremental Order Items:** Added `get_existing_order_ids` to `PipelineValidator` so that items arriving in subsequent batches referencing already published parent orders are accepted rather than falsely quarantined as orphans.
 
 ### 3.3 Idempotency and Safe Reruns
 * **Choice:** Deterministic Primary Key Upserts (`INSERT OR REPLACE INTO`).
@@ -130,11 +136,19 @@ The project tackles the four fundamental query inefficiencies in analytical data
   - If a batch is rerun due to network timeout or retry policy, existing records with identical primary keys (`order_id`, `item_id`) are safely replaced with updated lineage timestamps and run identifiers.
   - No duplicate keys or inflated totals can ever be introduced into target tables.
   - Rerunning identical input produces exact source-to-target count balance.
+  - Atomic transactions: Fact tables, quarantine entries, and run status updates occur within a single ACID transaction block. If an error occurs, changes are rolled back cleanly, leaving zero corrupt or half-written records.
 
 ### 3.4 Write Amplification vs Read Latency Trade-Off
-* **Analysis:**
-  - In our benchmarks, writing 50,000 orders into the unindexed Baseline database took **3.66s**, while writing into the indexed Optimized database took **4.77s** (an ingestion overhead of ~30%).
-  - **The Trade-Off:** Maintaining 5 secondary indexes incurs a modest write amplification penalty during ingestion. In analytical warehouses, however, data is written once (or in scheduled batches) and queried thousands of times by analytical dashboards and ML consumers. Gaining a **2x to 7.3x speedup on read queries** overwhelmingly justifies the slight ingestion overhead.
+* **Analysis & Empirical Evidence:**
+  - At **100,000 orders (241,268 order items)**:
+    - Baseline (unindexed) ingestion completed in **10.25s**.
+    - Optimized (indexed) ingestion completed in **13.49s** (~31.6% write amplification overhead due to B-tree index maintenance).
+  - **The Trade-Off:**
+    - Query 1 (Scan): **16.09 ms -> 4.87 ms (3.31x speedup, 69.8% latency reduction)**.
+    - Query 2 (Join): **2.41 ms -> 1.41 ms (1.71x speedup, 41.6% latency reduction)**.
+    - Query 3 (Aggregation): **297.87 ms -> 30.27 ms (9.84x speedup, 89.8% latency reduction)**.
+    - Query 4 (Filtering): **48.12 ms -> 11.88 ms (4.05x speedup, 75.3% latency reduction)**.
+  - **Engineering Conclusion:** Maintaining secondary indexes incurs a predictable, modest write overhead during batch loading. In analytical workloads, where data is written once per batch but queried thousands of times by dashboards and BI tools, gaining **3x to nearly 10x query acceleration** overwhelmingly justifies the 3.24s write penalty. Analytical optimizations deliberately trade write throughput for read acceleration.
 
 ---
 

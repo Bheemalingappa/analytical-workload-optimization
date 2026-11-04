@@ -41,6 +41,8 @@ class ProductModel(BaseModel):
 
 
 class OrderModel(BaseModel):
+    model_config = {"extra": "forbid"}
+
     order_id: int = Field(..., gt=0, description="Unique order primary key")
     order_number: str = Field(..., min_length=5, max_length=30)
     customer_id: int = Field(..., gt=0)
@@ -68,6 +70,8 @@ class OrderModel(BaseModel):
 
 
 class OrderItemModel(BaseModel):
+    model_config = {"extra": "forbid"}
+
     item_id: int = Field(..., gt=0)
     order_id: int = Field(..., gt=0)
     product_id: int = Field(..., gt=0)
@@ -101,6 +105,7 @@ CREATE TABLE IF NOT EXISTS pipeline_runs (
     start_time TEXT NOT NULL,
     end_time TEXT,
     status TEXT NOT NULL, -- RUNNING, SUCCESS, FAILED, PARTIAL_SUCCESS
+    source_file TEXT,
     input_count INTEGER DEFAULT 0,
     output_count INTEGER DEFAULT 0,
     rejected_count INTEGER DEFAULT 0,
@@ -111,6 +116,8 @@ CREATE TABLE IF NOT EXISTS pipeline_runs (
 CREATE TABLE IF NOT EXISTS quarantine_records (
     quarantine_id TEXT PRIMARY KEY,
     source_entity TEXT NOT NULL,
+    source_row_index INTEGER NOT NULL DEFAULT 0,
+    source_record_id TEXT,
     raw_record TEXT NOT NULL,
     error_code TEXT NOT NULL,
     error_message TEXT NOT NULL,

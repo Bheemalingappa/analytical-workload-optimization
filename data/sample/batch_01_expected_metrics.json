@@ -1,17 +1,17 @@
 {
-  "total_orders_generated": 5000,
+  "total_orders_generated": 100000,
   "expected_valid_orders": 0,
   "expected_quarantined_orders": 0,
   "expected_valid_items": 0,
   "expected_quarantined_items": 0,
   "anomalies_injected": {
-    "malformed_date": 23,
-    "missing_field": 35,
-    "duplicate_key": 33,
-    "orphan_customer": 39,
-    "orphan_product": 40,
-    "negative_amount": 42,
-    "mismatched_line_total": 76,
-    "late_arriving": 118
+    "malformed_date": 633,
+    "missing_field": 617,
+    "duplicate_key": 650,
+    "orphan_customer": 607,
+    "orphan_product": 1227,
+    "negative_amount": 626,
+    "mismatched_line_total": 1257,
+    "late_arriving": 1993
   }
 }

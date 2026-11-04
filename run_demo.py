@@ -148,7 +148,11 @@ def main():
     logger.info("\n--- STEP 5: RUNNING DATA QUALITY & RECONCILIATION AUDIT ---")
     with get_db_connection(config.optimized_db_path) as conn:
         reconciler = DataReconciler(conn)
-        rec_report = reconciler.reconcile(raw_orders=orders, raw_items=items)
+        rec_report = reconciler.reconcile(
+            raw_orders=orders,
+            raw_items=items,
+            run_id="run_optimized_batch_01_rerun",
+        )
 
     rec_md = DataReconciler.format_report_markdown(rec_report)
     rec_file = config.output_dir / "reconciliation_report.md"

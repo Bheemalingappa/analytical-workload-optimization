@@ -19,6 +19,8 @@ from src.models import OrderModel, OrderItemModel
 class QuarantineEntry:
     quarantine_id: str
     source_entity: str
+    source_row_index: int
+    source_record_id: Optional[str]
     raw_record: str
     error_code: str
     error_message: str
@@ -42,22 +44,42 @@ class ValidationReport:
 class PipelineValidator:
     """Validates records, applies domain integrity rules, and separates quarantined rows."""
 
-    def __init__(self, valid_customer_ids: Set[int], valid_product_ids: Set[int]):
+    def __init__(
+        self,
+        valid_customer_ids: Set[int],
+        valid_product_ids: Set[int],
+        existing_order_ids: Optional[Set[int]] = None,
+    ):
         self.valid_customer_ids = valid_customer_ids
         self.valid_product_ids = valid_product_ids
+        self.existing_order_ids = existing_order_ids or set()
 
     def _quarantine(
         self,
         entity: str,
         raw_row: dict[str, Any],
+        row_idx: int,
         error_code: str,
         error_message: str,
         run_id: str,
         source_file: str,
     ) -> QuarantineEntry:
+        source_record_id = None
+        if entity == "fact_orders":
+            raw_id = raw_row.get("order_id")
+            source_record_id = str(raw_id) if raw_id is not None else None
+        elif entity == "fact_order_items":
+            raw_id = raw_row.get("item_id")
+            source_record_id = str(raw_id) if raw_id is not None else None
+
+        # Deterministic quarantine_id prevents duplication upon reruns of the same source file
+        quarantine_id = f"{source_file}:{entity}:{row_idx}"
+
         return QuarantineEntry(
-            quarantine_id=str(uuid.uuid4()),
+            quarantine_id=quarantine_id,
             source_entity=entity,
+            source_row_index=row_idx,
+            source_record_id=source_record_id,
             raw_record=json.dumps(raw_row, default=str),
             error_code=error_code,
             error_message=error_message,
@@ -79,10 +101,11 @@ class PipelineValidator:
 
         seen_order_ids: set[int] = set()
         seen_order_numbers: set[str] = set()
-        valid_order_id_set: set[int] = set()
+        # Include existing target orders so incremental items are accepted
+        valid_order_id_set: set[int] = set(self.existing_order_ids)
 
         # 1. Validate Orders
-        for row in raw_orders:
+        for row_idx, row in enumerate(raw_orders):
             # Check duplicate in batch
             order_id = row.get("order_id")
             order_number = row.get("order_number")
@@ -92,6 +115,7 @@ class PipelineValidator:
                     self._quarantine(
                         entity="fact_orders",
                         raw_row=row,
+                        row_idx=row_idx,
                         error_code="ERR_DUPLICATE_ORDER_KEY",
                         error_message=f"Duplicate order_id {order_id} or order_number {order_number} in batch",
                         run_id=run_id,
@@ -108,11 +132,13 @@ class PipelineValidator:
                 row_copy.setdefault("created_at", datetime.now(timezone.utc).isoformat())
                 validated_order = OrderModel(**row_copy)
             except (ValidationError, Exception) as e:
+                err_code = "ERR_UNEXPECTED_SCHEMA_CHANGE" if "extra" in str(e).lower() else "ERR_MALFORMED_ORDER_SCHEMA"
                 report.quarantine_entries.append(
                     self._quarantine(
                         entity="fact_orders",
                         raw_row=row,
-                        error_code="ERR_MALFORMED_ORDER_SCHEMA",
+                        row_idx=row_idx,
+                        error_code=err_code,
                         error_message=str(e),
                         run_id=run_id,
                         source_file=source_file,
@@ -126,6 +152,7 @@ class PipelineValidator:
                     self._quarantine(
                         entity="fact_orders",
                         raw_row=row,
+                        row_idx=row_idx,
                         error_code="ERR_ORPHAN_CUSTOMER_ID",
                         error_message=f"customer_id {validated_order.customer_id} not found in dim_customers",
                         run_id=run_id,
@@ -145,13 +172,14 @@ class PipelineValidator:
 
         # 2. Validate Order Items
         seen_item_ids: set[int] = set()
-        for row in raw_items:
+        for row_idx, row in enumerate(raw_items):
             item_id = row.get("item_id")
             if item_id in seen_item_ids:
                 report.quarantine_entries.append(
                     self._quarantine(
                         entity="fact_order_items",
                         raw_row=row,
+                        row_idx=row_idx,
                         error_code="ERR_DUPLICATE_ITEM_KEY",
                         error_message=f"Duplicate item_id {item_id} in batch",
                         run_id=run_id,
@@ -167,11 +195,13 @@ class PipelineValidator:
                 row_copy.setdefault("created_at", datetime.now(timezone.utc).isoformat())
                 validated_item = OrderItemModel(**row_copy)
             except (ValidationError, Exception) as e:
+                err_code = "ERR_UNEXPECTED_SCHEMA_CHANGE" if "extra" in str(e).lower() else "ERR_MALFORMED_ITEM_SCHEMA"
                 report.quarantine_entries.append(
                     self._quarantine(
                         entity="fact_order_items",
                         raw_row=row,
-                        error_code="ERR_MALFORMED_ITEM_SCHEMA",
+                        row_idx=row_idx,
+                        error_code=err_code,
                         error_message=str(e),
                         run_id=run_id,
                         source_file=source_file,
@@ -185,6 +215,7 @@ class PipelineValidator:
                     self._quarantine(
                         entity="fact_order_items",
                         raw_row=row,
+                        row_idx=row_idx,
                         error_code="ERR_ORPHAN_ORDER_ID",
                         error_message=f"Parent order_id {validated_item.order_id} is missing or rejected",
                         run_id=run_id,
@@ -199,6 +230,7 @@ class PipelineValidator:
                     self._quarantine(
                         entity="fact_order_items",
                         raw_row=row,
+                        row_idx=row_idx,
                         error_code="ERR_ORPHAN_PRODUCT_ID",
                         error_message=f"product_id {validated_item.product_id} not found in dim_products",
                         run_id=run_id,

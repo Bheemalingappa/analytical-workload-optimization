@@ -65,6 +65,8 @@ erDiagram
     quarantine_records {
         string quarantine_id PK
         string source_entity
+        integer source_row_index
+        string source_record_id
         string raw_record
         string error_code
         string error_message
@@ -79,6 +81,7 @@ erDiagram
         string start_time
         string end_time
         string status
+        string source_file
         integer input_count
         integer output_count
         integer rejected_count
@@ -167,8 +170,10 @@ erDiagram
 
 | Column | Data Type | Nullable | Primary Key | Foreign Key | Description / Validation Rule |
 |:---|:---|:---:|:---:|:---:|:---|
-| `quarantine_id` | `TEXT` | No | Yes | No | UUIDv4 string. |
+| `quarantine_id` | `TEXT` | No | Yes | No | Deterministic composite key (`source_file:entity:row_index`) preventing duplicate entries on reruns. |
 | `source_entity` | `TEXT` | No | No | No | Target entity attempted (`fact_orders` or `fact_order_items`). |
+| `source_row_index`| `INTEGER` | No | No | No | 0-based source record index in input file. |
+| `source_record_id`| `TEXT` | Yes | No | No | Natural source identifier (`order_id` or `item_id`) if present. |
 | `raw_record` | `TEXT` | No | No | No | Exact JSON serialized raw input row. |
 | `error_code` | `TEXT` | No | No | No | Standardized error category (e.g. `ERR_ORPHAN_CUSTOMER_ID`). |
 | `error_message` | `TEXT` | No | No | No | Detailed validation message or exception stack. |
@@ -189,6 +194,7 @@ erDiagram
 | `start_time` | `TEXT` | No | No | No | ISO-8601 execution start timestamp. |
 | `end_time` | `TEXT` | Yes | No | No | ISO-8601 execution completion timestamp. |
 | `status` | `TEXT` | No | No | No | State machine: `RUNNING`, `SUCCESS`, `PARTIAL_SUCCESS`, `FAILED`. |
+| `source_file` | `TEXT` | Yes | No | No | Source input files processed by this run. |
 | `input_count` | `INTEGER` | No | No | No | Total records read from source files. |
 | `output_count` | `INTEGER` | No | No | No | Total valid records committed to target tables. |
 | `rejected_count`| `INTEGER` | No | No | No | Total records routed to quarantine. |

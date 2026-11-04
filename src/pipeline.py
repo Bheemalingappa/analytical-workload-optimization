@@ -102,6 +102,13 @@ class DataEngineeringPipeline:
 
         return cust_keys, prod_keys
 
+    def get_existing_order_ids(self) -> set[int]:
+        """Retrieves existing order primary keys to support incremental line items and backfills."""
+        with get_db_connection(self.db_path) as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT order_id FROM fact_orders;")
+            return {row[0] for row in cursor.fetchall()}
+
     def execute_batch(
         self,
         orders_file: Path,
@@ -118,8 +125,9 @@ class DataEngineeringPipeline:
         run_id = run_id or f"run_{datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')}_{uuid.uuid4().hex[:6]}"
         start_time = datetime.now(timezone.utc)
         start_iso = start_time.isoformat()
+        source_file_label = f"{orders_file.name}+{items_file.name}"
 
-        self._record_run_start(run_id, start_iso)
+        self._record_run_start(run_id, start_iso, source_file_label)
 
         try:
             # 1. Read input records
@@ -142,12 +150,16 @@ class DataEngineeringPipeline:
                     duration_seconds=duration,
                 )
 
-            # 2. Referential integrity keys
+            # 2. Referential integrity keys & existing parent orders
             cust_keys, prod_keys = self.get_dimension_keys()
-            validator = PipelineValidator(valid_customer_ids=cust_keys, valid_product_ids=prod_keys)
+            existing_orders = self.get_existing_order_ids()
+            validator = PipelineValidator(
+                valid_customer_ids=cust_keys,
+                valid_product_ids=prod_keys,
+                existing_order_ids=existing_orders,
+            )
 
             # 3. Validate
-            source_file_label = f"{orders_file.name}+{items_file.name}"
             val_report: ValidationReport = validator.validate_batch(
                 raw_orders=raw_orders,
                 raw_items=raw_items,
@@ -155,7 +167,7 @@ class DataEngineeringPipeline:
                 source_file=source_file_label,
             )
 
-            # 4. Commit Valid & Quarantined records in a single transaction
+            # 4. Commit Valid & Quarantined records in a single atomic transaction
             self._persist_to_target(val_report, run_id)
 
             duration = (datetime.now(timezone.utc) - start_time).total_seconds()
@@ -233,12 +245,14 @@ class DataEngineeringPipeline:
                     report.valid_items,
                 )
 
-            # Insert Quarantined rows
+            # Insert / Replace Quarantined rows (idempotent per quarantine_id)
             if report.quarantine_entries:
                 q_rows = [
                     (
                         q.quarantine_id,
                         q.source_entity,
+                        q.source_row_index,
+                        q.source_record_id,
                         q.raw_record,
                         q.error_code,
                         q.error_message,
@@ -250,25 +264,25 @@ class DataEngineeringPipeline:
                 ]
                 cursor.executemany(
                     """
-                    INSERT INTO quarantine_records (
-                        quarantine_id, source_entity, raw_record, error_code,
-                        error_message, rejected_at, run_id, source_file
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?);
+                    INSERT OR REPLACE INTO quarantine_records (
+                        quarantine_id, source_entity, source_row_index, source_record_id,
+                        raw_record, error_code, error_message, rejected_at, run_id, source_file
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
                     """,
                     q_rows,
                 )
 
             conn.commit()
 
-    def _record_run_start(self, run_id: str, start_iso: str) -> None:
+    def _record_run_start(self, run_id: str, start_iso: str, source_file: str) -> None:
         with get_db_connection(self.db_path) as conn:
             conn.execute(
                 """
                 INSERT INTO pipeline_runs (
-                    run_id, pipeline_name, start_time, status
-                ) VALUES (?, ?, ?, ?);
+                    run_id, pipeline_name, start_time, status, source_file
+                ) VALUES (?, ?, ?, ?, ?);
                 """,
-                (run_id, "retail_analytics_ingest", start_iso, "RUNNING"),
+                (run_id, "retail_analytics_ingest", start_iso, "RUNNING", source_file),
             )
             conn.commit()
 
