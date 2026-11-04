@@ -170,25 +170,6 @@ The pipeline was benchmarked at three scales using the reproducible seed `seed=4
 > Creating and maintaining secondary indexes adds write overhead during ingestion. In the 100,000-order benchmark, optimized ingestion took 13.49 seconds compared with 10.25 seconds for the baseline.
 >
 > This illustrates a common analytical engineering trade-off: additional ingestion cost can be worthwhile when analytical queries are executed frequently. The recorded benchmark shows up to 9.12x faster execution for the aggregation workload.
-=======
-### Benchmark Methodology
-
-- **Dataset:** Synthetic e-commerce data generated using a fixed seed (`seed=42`).
-- **Scale:** 2,000, 25,000, and 100,000 orders.
-- **Database:** SQLite.
-- **Comparison:** Baseline and optimized database workloads.
-- **Execution Plans:** SQLite `EXPLAIN QUERY PLAN` was used to inspect scans and index usage.
-- **Measurements:** Query execution latency and ingestion duration.
-- **Reproducibility:** Run `python run_demo.py` to execute the demo and generate benchmark output.
-
-Benchmark timings are environment-dependent and should be interpreted as measurements from the recorded runs, not guaranteed performance results.
-
-### Engineering Trade-off - Ingestion Throughput vs. Read Latency
-
-Creating and maintaining secondary indexes adds write overhead during ingestion. In the 100,000-order benchmark, optimized ingestion took 13.49 seconds compared with 10.25 seconds for the baseline.
-
-This illustrates a common analytical engineering trade-off: additional ingestion cost can be worthwhile when analytical queries are executed frequently. The recorded benchmark shows up to 9.12x faster execution for the aggregation workload.
->>>>>>> 8a036e8 (docs: finalize README formatting and methodology)
 
 ### Benchmark Methodology
 
