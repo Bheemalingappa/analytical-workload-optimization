@@ -9,10 +9,9 @@ In accordance with the **YottaFlex AI Candidate Project Submission Guidelines**,
 | Assessment Metric | Candidate Details |
 |:---|:---|
 | **Candidate Name** | Bheema Lingappa |
-| **Email Address** | bheemalingappaboler@gmail.com |
 | **Assessment** | YottaFlex AI Round 3: 72-Hour Code Challenge |
 | **Problem Statement** | Analytical Workload Optimization & Robust Data Pipeline |
-| **AI Assistants Used** | Google Antigravity / Gemini 3.8 Flash (Pair Programming & Code Assistant) |
+| **AI Assistants Used** | ChatGPT (OpenAI) and Google Antigravity |
 | **Submission Deadline** | Friday, November 6, 2026 at 5:19:44 PM IST |
 
 ---
@@ -73,3 +72,29 @@ In accordance with the **YottaFlex AI Candidate Project Submission Guidelines**,
   - Added schema constraint `model_config = {"extra": "forbid"}` to reject unexpected schema fields.
   - Expanded automated test suite from 17 to 24 tests, verifying all pass with 100% success.
   - Benchmarked at 2,000, 25,000, and 100,000 records, validating scalability and query acceleration up to 9.84x.
+
+### Additional Prompt Record: Original YottaFlex Assignment Brief
+
+**AI Tool:** Google Antigravity  
+**Status:** Confirmed submitted by candidate  
+**Type:** Original assignment brief
+
+The complete YottaFlex assignment brief was provided to Google Antigravity. It included:
+
+- Business Context / Problem
+- Objective and Scope
+- Primary Actors / Systems
+- Business Workflow and Rules
+- Entities and Relationships
+- ID / Nomenclature Conventions
+- Implementation Instructions
+- Suggested Volume and Coverage
+- Required Edge Cases / Negative Scenarios
+- Validation Rules / Acceptance Criteria
+- Evaluation Focus
+- 72-Hour Deliverables
+- Scope Guidance
+
+**Purpose:** To establish the project requirements, expected implementation, validation rules, and evaluation criteria.
+
+**Note:** This records the original assignment brief and does not represent a complete transcript of all subsequent AI interactions.
