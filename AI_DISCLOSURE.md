@@ -1,100 +1,58 @@
-# AI Use Disclosure & Prompt History
-
-In accordance with the **YottaFlex AI Candidate Project Submission Guidelines**, this document transparently details the utilization of AI coding assistance, prompt history, human oversight, architectural validation, and engineering judgment exercised throughout the development of this project.
-
----
+# AI Use Disclosure
 
 ## 1. Transparency Summary
 
 | Assessment Metric | Candidate Details |
-|:---|:---|
-| **Candidate Name** | Bheema Lingappa |
-| **Assessment** | YottaFlex AI Round 3: 72-Hour Code Challenge |
-| **Problem Statement** | Analytical Workload Optimization & Robust Data Pipeline |
-| **AI Assistants Used** | ChatGPT (OpenAI) and Google Antigravity |
-| **Submission Deadline** | Friday, November 6, 2026 at 5:19:44 PM IST |
+|---|---|
+| Candidate Name | Bheemalingappa |
+| Project | Analytical Workload Optimization and Data Pipeline |
+| AI Assistants Used | ChatGPT (OpenAI), Google Antigravity |
+| Human Review | All generated code and documentation were reviewed and tested by the candidate |
 
----
+## 2. Areas Where AI Assistance Was Used
 
-## 2. Where AI Accelerated the Work
-1. **Boilerplate and DDL Generation:** Rapid scaffolding of Pydantic models, SQL DDL schema statements, and starter test fixtures.
-2. **Synthetic Data Anomaly Injection:** Automated scripting of randomized permutations for negative edge cases (e.g., calendar bounds, orphan keys, math mismatches).
-3. **Markdown Documentation Formatting:** Structuring comprehensive markdown documentation, ASCII/Mermaid flowcharts, and markdown tables.
+AI tools assisted with:
 
----
+1. **Project scaffolding:** Initial Python modules, data models, SQL schema drafts and test structures.
+2. **Data generation:** Synthetic datasets and negative test scenarios.
+3. **Pipeline development:** Suggestions for ingestion, validation, transformation and quarantine handling.
+4. **Performance analysis:** Benchmarking approaches and SQL query optimization suggestions.
+5. **Testing:** Drafting and improving automated test cases.
+6. **Documentation:** README structure, data dictionary, architecture explanations and Markdown formatting.
 
-## 3. Where Human Oversight, Review, and Judgment Were Critical
-1. **Analytical Workload Inefficiencies Identification:**
-   - Designed 4 distinct categories representing real-world query bottlenecks:
-     - Scan: Full table sequential scan vs. Composite covering index scan.
-     - Join: Unindexed foreign key nested loop vs. Indexed foreign key seek.
-     - Aggregation: Naive multi-table join with high-volume string grouping vs. Integer pushdown pre-aggregation over covering index.
-     - Filtering: Non-sargable scalar function call (`strftime('%Y', ...)`) vs. Sargable date range predicate (`order_date >= ... AND order_date < ...`).
-2. **Engine Selection & Sandbox Feasibility:**
-   - Recognized that external cloud infrastructure or heavy database servers (like Dockerized Postgres) introduce network and authentication barriers for evaluators. Chose SQLite in Write-Ahead-Logging (WAL) mode to guarantee 100% zero-credential, local reproducibility across Windows, Linux, and macOS.
-3. **Operating System File Lock Resolution:**
-   - Identified Windows-specific SQLite file-locking behavior on `tempfile.TemporaryDirectory` during automated tests. Implemented explicit `@contextmanager` teardown with `conn.close()` to ensure clean cleanup across all platforms.
-4. **Benchmarking Invariant Verification:**
-   - Validated that baseline and optimized queries return identical result sets, aggregate totals, and row counts, ensuring speedups were achieved without sacrificing query accuracy.
-5. **Reconciliation & Idempotency Invariants:**
-   - Verified that rerunning identical batches updates target lineage without introducing duplicate keys or inflating revenue aggregates.
+## 3. Human Oversight and Engineering Decisions
 
----
+The candidate reviewed, evaluated and tested the implementation and made the following engineering decisions:
 
-## 4. Prompt History Log
+1. Selected SQLite with Write-Ahead Logging (WAL) for local reproducibility without external database infrastructure.
+2. Designed the data model, keys and relationships.
+3. Reviewed validation rules and quarantine behavior.
+4. Implemented and verified idempotent pipeline execution and retry handling.
+5. Checked source-to-target reconciliation.
+6. Compared baseline and optimized query results to verify correctness.
+7. Investigated and resolved Windows-specific SQLite file-locking behavior.
+8. Reviewed benchmark results and documented performance trade-offs.
 
-### Prompt Session: Architectural Planning & Scaffolding
-* **Prompt 1:**
-  > *"Analyze the YottaFlex AI problem statement: 'Use a supplied analytical workload and synthetic tables to identify inefficient scans, joins, aggregations, and filtering. Document a baseline and demonstrate measurable improvements.' Design a modular, production-ready Data Engineering project adhering to 0-3 years experience target with ingestion, schema validation, quarantine dead-letter repository, idempotent loading, automated reconciliation, and benchmark runner."*
-* **Candidate Validation & Action:** Evaluated architectural pattern; selected star schema model (`dim_customers`, `dim_products`, `fact_orders`, `fact_order_items`) and segregated metadata tables (`pipeline_runs`, `quarantine_records`).
+## 4. Testing and Validation
 
-### Prompt Session: Core Pipeline & Validation Engine
-* **Prompt 2:**
-  > *"Implement a Python ingestion engine with Pydantic schema validation that checks missing fields, malformed dates, invalid foreign keys, intra-batch duplicate keys, and line total math integrity. Invalid rows must be routed to a quarantine dead-letter table with full raw record and diagnostic code."*
-* **Candidate Validation & Action:** Reviewed validation logic; verified that parent order failures properly propagate to quarantine corresponding child order items without crashing the ingestion batch.
+The final local automated test run completed successfully:
 
-### Prompt Session: Analytical Workload Benchmarking Suite
-* **Prompt 3:**
-  > *"Create an analytical benchmarking suite that runs 4 workload categories on both baseline (unindexed) and optimized databases: Scan, Join, Aggregation, and Filtering. Collect EXPLAIN QUERY PLAN, measure warm latency across multiple iterations, and format a markdown comparative report."*
-* **Candidate Validation & Action:** Refined Workload 3 (Aggregation) to use integer pre-aggregation over covering index rather than naive CTE materialization, ensuring measurable 6x to 7x speedup at scale.
+- Test framework: pytest
+- Total tests: 24
+- Passed: 24
+- Failed: 0
+- Execution time: 2.55 seconds
 
-### Prompt Session: Test Automation & Idempotency
-* **Prompt 4:**
-  > *"Generate a comprehensive pytest suite covering happy path, empty input, malformed input, orphan foreign keys, duplicates, idempotent reruns, and benchmark plan verification."*
-* **Candidate Validation & Action:** Executed `pytest -v`; resolved Windows SQLite connection locking by wrapping database sessions in a safe context manager. Confirmed 17 out of 17 tests passed cleanly.
+The test suite covers data generation, validation, pipeline execution, optimization, reconciliation, retry behavior and idempotency.
 
-### Prompt Session: Senior Data Engineer Code Review & Reconciliation Hardening
-* **Prompt 5:**
-  > *"Audit the existing Data Engineering project: investigate quarantine generation, replace the '>=' reconciliation heuristic with exact source-to-target accounting, prevent duplicate quarantine entries across reruns, implement row-level traceability, add tests for unexpected schema changes, partial failure/rollback/retry, and incremental items, and verify scalability at 2k, 25k, and 100k records."*
-* **Candidate Validation & Action:**
-  - Diagnosed that append-only quarantine inserts caused double-counting on reruns. Designed deterministic composite keys (`source_file:entity:row_index`) with `INSERT OR REPLACE` to ensure complete rerun idempotency for both fact tables and quarantine logs.
-  - Implemented exact equality reconciliation (`source == published + quarantined`), verifying that every source row has exactly one destination and reporting full error code diagnostics.
-  - Added schema constraint `model_config = {"extra": "forbid"}` to reject unexpected schema fields.
-  - Expanded automated test suite from 17 to 24 tests, verifying all pass with 100% success.
-  - Benchmarked at 2,000, 25,000, and 100,000 records, validating scalability and query acceleration up to 9.84x.
+## 5. Prompt History Availability
 
-### Additional Prompt Record: Original YottaFlex Assignment Brief
+AI assistance was used iteratively during project planning, implementation, debugging, testing and documentation.
 
-**AI Tool:** Google Antigravity  
-**Status:** Confirmed submitted by candidate  
-**Type:** Original assignment brief
+The candidate maintains a separate prompt-history record distinguishing exact prompts from reconstructed summaries. This document is a disclosure summary, not a complete transcript of all AI interactions.
 
-The complete YottaFlex assignment brief was provided to Google Antigravity. It included:
+Assessment-specific instructions and confidential problem-statement content have intentionally not been reproduced in this public disclosure.
 
-- Business Context / Problem
-- Objective and Scope
-- Primary Actors / Systems
-- Business Workflow and Rules
-- Entities and Relationships
-- ID / Nomenclature Conventions
-- Implementation Instructions
-- Suggested Volume and Coverage
-- Required Edge Cases / Negative Scenarios
-- Validation Rules / Acceptance Criteria
-- Evaluation Focus
-- 72-Hour Deliverables
-- Scope Guidance
+## 6. Candidate Responsibility
 
-**Purpose:** To establish the project requirements, expected implementation, validation rules, and evaluation criteria.
-
-**Note:** This records the original assignment brief and does not represent a complete transcript of all subsequent AI interactions.
+The candidate is responsible for the submitted implementation and its technical decisions and is prepared to explain the architecture, code, dependencies, test results, limitations and trade-offs during technical review.
