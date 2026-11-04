@@ -1,0 +1,5002 @@
+[
+  {
+    "customer_id": 1,
+    "customer_code": "CUST-000001",
+    "customer_name": "Customer Company 1",
+    "segment": "ENTERPRISE",
+    "country": "US",
+    "signup_date": "2024-10-16",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 2,
+    "customer_code": "CUST-000002",
+    "customer_name": "Customer Company 2",
+    "segment": "SMB",
+    "country": "GB",
+    "signup_date": "2023-09-08",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 3,
+    "customer_code": "CUST-000003",
+    "customer_name": "Customer Company 3",
+    "segment": "ENTERPRISE",
+    "country": "JP",
+    "signup_date": "2024-11-23",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 4,
+    "customer_code": "CUST-000004",
+    "customer_name": "Customer Company 4",
+    "segment": "SMB",
+    "country": "DE",
+    "signup_date": "2023-04-06",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 5,
+    "customer_code": "CUST-000005",
+    "customer_name": "Customer Company 5",
+    "segment": "SMB",
+    "country": "JP",
+    "signup_date": "2023-01-28",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 6,
+    "customer_code": "CUST-000006",
+    "customer_name": "Customer Company 6",
+    "segment": "CONSUMER",
+    "country": "US",
+    "signup_date": "2024-08-26",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 7,
+    "customer_code": "CUST-000007",
+    "customer_name": "Customer Company 7",
+    "segment": "GOVERNMENT",
+    "country": "IN",
+    "signup_date": "2023-06-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 8,
+    "customer_code": "CUST-000008",
+    "customer_name": "Customer Company 8",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2023-08-09",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 9,
+    "customer_code": "CUST-000009",
+    "customer_name": "Customer Company 9",
+    "segment": "CONSUMER",
+    "country": "IN",
+    "signup_date": "2023-04-10",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 10,
+    "customer_code": "CUST-000010",
+    "customer_name": "Customer Company 10",
+    "segment": "GOVERNMENT",
+    "country": "CA",
+    "signup_date": "2023-02-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 11,
+    "customer_code": "CUST-000011",
+    "customer_name": "Customer Company 11",
+    "segment": "ENTERPRISE",
+    "country": "FR",
+    "signup_date": "2024-01-23",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 12,
+    "customer_code": "CUST-000012",
+    "customer_name": "Customer Company 12",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2024-09-25",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 13,
+    "customer_code": "CUST-000013",
+    "customer_name": "Customer Company 13",
+    "segment": "SMB",
+    "country": "FR",
+    "signup_date": "2023-02-16",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 14,
+    "customer_code": "CUST-000014",
+    "customer_name": "Customer Company 14",
+    "segment": "ENTERPRISE",
+    "country": "JP",
+    "signup_date": "2023-08-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 15,
+    "customer_code": "CUST-000015",
+    "customer_name": "Customer Company 15",
+    "segment": "CONSUMER",
+    "country": "GB",
+    "signup_date": "2024-10-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 16,
+    "customer_code": "CUST-000016",
+    "customer_name": "Customer Company 16",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2023-08-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 17,
+    "customer_code": "CUST-000017",
+    "customer_name": "Customer Company 17",
+    "segment": "SMB",
+    "country": "GB",
+    "signup_date": "2023-06-25",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 18,
+    "customer_code": "CUST-000018",
+    "customer_name": "Customer Company 18",
+    "segment": "SMB",
+    "country": "IN",
+    "signup_date": "2023-10-04",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 19,
+    "customer_code": "CUST-000019",
+    "customer_name": "Customer Company 19",
+    "segment": "SMB",
+    "country": "US",
+    "signup_date": "2023-02-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 20,
+    "customer_code": "CUST-000020",
+    "customer_name": "Customer Company 20",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2024-02-15",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 21,
+    "customer_code": "CUST-000021",
+    "customer_name": "Customer Company 21",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2024-08-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 22,
+    "customer_code": "CUST-000022",
+    "customer_name": "Customer Company 22",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2024-02-10",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 23,
+    "customer_code": "CUST-000023",
+    "customer_name": "Customer Company 23",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2023-09-10",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 24,
+    "customer_code": "CUST-000024",
+    "customer_name": "Customer Company 24",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2024-02-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 25,
+    "customer_code": "CUST-000025",
+    "customer_name": "Customer Company 25",
+    "segment": "GOVERNMENT",
+    "country": "CA",
+    "signup_date": "2023-05-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 26,
+    "customer_code": "CUST-000026",
+    "customer_name": "Customer Company 26",
+    "segment": "SMB",
+    "country": "GB",
+    "signup_date": "2023-04-23",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 27,
+    "customer_code": "CUST-000027",
+    "customer_name": "Customer Company 27",
+    "segment": "ENTERPRISE",
+    "country": "JP",
+    "signup_date": "2024-03-08",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 28,
+    "customer_code": "CUST-000028",
+    "customer_name": "Customer Company 28",
+    "segment": "CONSUMER",
+    "country": "US",
+    "signup_date": "2024-04-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 29,
+    "customer_code": "CUST-000029",
+    "customer_name": "Customer Company 29",
+    "segment": "CONSUMER",
+    "country": "IN",
+    "signup_date": "2023-04-28",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 30,
+    "customer_code": "CUST-000030",
+    "customer_name": "Customer Company 30",
+    "segment": "SMB",
+    "country": "AU",
+    "signup_date": "2024-03-21",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 31,
+    "customer_code": "CUST-000031",
+    "customer_name": "Customer Company 31",
+    "segment": "SMB",
+    "country": "CA",
+    "signup_date": "2023-09-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 32,
+    "customer_code": "CUST-000032",
+    "customer_name": "Customer Company 32",
+    "segment": "SMB",
+    "country": "GB",
+    "signup_date": "2023-11-02",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 33,
+    "customer_code": "CUST-000033",
+    "customer_name": "Customer Company 33",
+    "segment": "ENTERPRISE",
+    "country": "IN",
+    "signup_date": "2023-06-15",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 34,
+    "customer_code": "CUST-000034",
+    "customer_name": "Customer Company 34",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2023-04-25",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 35,
+    "customer_code": "CUST-000035",
+    "customer_name": "Customer Company 35",
+    "segment": "ENTERPRISE",
+    "country": "CA",
+    "signup_date": "2023-09-04",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 36,
+    "customer_code": "CUST-000036",
+    "customer_name": "Customer Company 36",
+    "segment": "SMB",
+    "country": "GB",
+    "signup_date": "2023-03-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 37,
+    "customer_code": "CUST-000037",
+    "customer_name": "Customer Company 37",
+    "segment": "SMB",
+    "country": "FR",
+    "signup_date": "2024-07-16",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 38,
+    "customer_code": "CUST-000038",
+    "customer_name": "Customer Company 38",
+    "segment": "GOVERNMENT",
+    "country": "DE",
+    "signup_date": "2024-09-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 39,
+    "customer_code": "CUST-000039",
+    "customer_name": "Customer Company 39",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2023-07-25",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 40,
+    "customer_code": "CUST-000040",
+    "customer_name": "Customer Company 40",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2024-10-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 41,
+    "customer_code": "CUST-000041",
+    "customer_name": "Customer Company 41",
+    "segment": "ENTERPRISE",
+    "country": "DE",
+    "signup_date": "2024-04-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 42,
+    "customer_code": "CUST-000042",
+    "customer_name": "Customer Company 42",
+    "segment": "ENTERPRISE",
+    "country": "DE",
+    "signup_date": "2023-12-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 43,
+    "customer_code": "CUST-000043",
+    "customer_name": "Customer Company 43",
+    "segment": "ENTERPRISE",
+    "country": "US",
+    "signup_date": "2023-01-08",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 44,
+    "customer_code": "CUST-000044",
+    "customer_name": "Customer Company 44",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2023-02-02",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 45,
+    "customer_code": "CUST-000045",
+    "customer_name": "Customer Company 45",
+    "segment": "GOVERNMENT",
+    "country": "DE",
+    "signup_date": "2023-10-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 46,
+    "customer_code": "CUST-000046",
+    "customer_name": "Customer Company 46",
+    "segment": "GOVERNMENT",
+    "country": "DE",
+    "signup_date": "2024-08-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 47,
+    "customer_code": "CUST-000047",
+    "customer_name": "Customer Company 47",
+    "segment": "SMB",
+    "country": "CA",
+    "signup_date": "2024-02-21",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 48,
+    "customer_code": "CUST-000048",
+    "customer_name": "Customer Company 48",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2024-03-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 49,
+    "customer_code": "CUST-000049",
+    "customer_name": "Customer Company 49",
+    "segment": "ENTERPRISE",
+    "country": "US",
+    "signup_date": "2023-02-25",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 50,
+    "customer_code": "CUST-000050",
+    "customer_name": "Customer Company 50",
+    "segment": "ENTERPRISE",
+    "country": "DE",
+    "signup_date": "2023-12-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 51,
+    "customer_code": "CUST-000051",
+    "customer_name": "Customer Company 51",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2024-07-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 52,
+    "customer_code": "CUST-000052",
+    "customer_name": "Customer Company 52",
+    "segment": "GOVERNMENT",
+    "country": "DE",
+    "signup_date": "2023-10-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 53,
+    "customer_code": "CUST-000053",
+    "customer_name": "Customer Company 53",
+    "segment": "GOVERNMENT",
+    "country": "CA",
+    "signup_date": "2023-03-19",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 54,
+    "customer_code": "CUST-000054",
+    "customer_name": "Customer Company 54",
+    "segment": "ENTERPRISE",
+    "country": "CA",
+    "signup_date": "2024-07-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 55,
+    "customer_code": "CUST-000055",
+    "customer_name": "Customer Company 55",
+    "segment": "SMB",
+    "country": "JP",
+    "signup_date": "2023-08-31",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 56,
+    "customer_code": "CUST-000056",
+    "customer_name": "Customer Company 56",
+    "segment": "GOVERNMENT",
+    "country": "US",
+    "signup_date": "2023-08-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 57,
+    "customer_code": "CUST-000057",
+    "customer_name": "Customer Company 57",
+    "segment": "GOVERNMENT",
+    "country": "FR",
+    "signup_date": "2023-01-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 58,
+    "customer_code": "CUST-000058",
+    "customer_name": "Customer Company 58",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2024-04-10",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 59,
+    "customer_code": "CUST-000059",
+    "customer_name": "Customer Company 59",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2024-07-23",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 60,
+    "customer_code": "CUST-000060",
+    "customer_name": "Customer Company 60",
+    "segment": "ENTERPRISE",
+    "country": "US",
+    "signup_date": "2023-08-11",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 61,
+    "customer_code": "CUST-000061",
+    "customer_name": "Customer Company 61",
+    "segment": "ENTERPRISE",
+    "country": "AU",
+    "signup_date": "2023-02-28",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 62,
+    "customer_code": "CUST-000062",
+    "customer_name": "Customer Company 62",
+    "segment": "SMB",
+    "country": "US",
+    "signup_date": "2024-06-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 63,
+    "customer_code": "CUST-000063",
+    "customer_name": "Customer Company 63",
+    "segment": "SMB",
+    "country": "CA",
+    "signup_date": "2023-03-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 64,
+    "customer_code": "CUST-000064",
+    "customer_name": "Customer Company 64",
+    "segment": "SMB",
+    "country": "JP",
+    "signup_date": "2024-11-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 65,
+    "customer_code": "CUST-000065",
+    "customer_name": "Customer Company 65",
+    "segment": "SMB",
+    "country": "US",
+    "signup_date": "2024-08-06",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 66,
+    "customer_code": "CUST-000066",
+    "customer_name": "Customer Company 66",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2024-03-05",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 67,
+    "customer_code": "CUST-000067",
+    "customer_name": "Customer Company 67",
+    "segment": "SMB",
+    "country": "FR",
+    "signup_date": "2023-11-18",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 68,
+    "customer_code": "CUST-000068",
+    "customer_name": "Customer Company 68",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2024-11-18",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 69,
+    "customer_code": "CUST-000069",
+    "customer_name": "Customer Company 69",
+    "segment": "ENTERPRISE",
+    "country": "AU",
+    "signup_date": "2023-03-16",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 70,
+    "customer_code": "CUST-000070",
+    "customer_name": "Customer Company 70",
+    "segment": "ENTERPRISE",
+    "country": "CA",
+    "signup_date": "2024-07-30",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 71,
+    "customer_code": "CUST-000071",
+    "customer_name": "Customer Company 71",
+    "segment": "CONSUMER",
+    "country": "GB",
+    "signup_date": "2024-06-02",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 72,
+    "customer_code": "CUST-000072",
+    "customer_name": "Customer Company 72",
+    "segment": "SMB",
+    "country": "IN",
+    "signup_date": "2023-03-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 73,
+    "customer_code": "CUST-000073",
+    "customer_name": "Customer Company 73",
+    "segment": "CONSUMER",
+    "country": "US",
+    "signup_date": "2024-03-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 74,
+    "customer_code": "CUST-000074",
+    "customer_name": "Customer Company 74",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2024-07-21",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 75,
+    "customer_code": "CUST-000075",
+    "customer_name": "Customer Company 75",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2023-05-18",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 76,
+    "customer_code": "CUST-000076",
+    "customer_name": "Customer Company 76",
+    "segment": "SMB",
+    "country": "FR",
+    "signup_date": "2024-07-20",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 77,
+    "customer_code": "CUST-000077",
+    "customer_name": "Customer Company 77",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2023-08-04",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 78,
+    "customer_code": "CUST-000078",
+    "customer_name": "Customer Company 78",
+    "segment": "GOVERNMENT",
+    "country": "FR",
+    "signup_date": "2023-09-28",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 79,
+    "customer_code": "CUST-000079",
+    "customer_name": "Customer Company 79",
+    "segment": "ENTERPRISE",
+    "country": "JP",
+    "signup_date": "2023-02-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 80,
+    "customer_code": "CUST-000080",
+    "customer_name": "Customer Company 80",
+    "segment": "ENTERPRISE",
+    "country": "IN",
+    "signup_date": "2023-02-15",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 81,
+    "customer_code": "CUST-000081",
+    "customer_name": "Customer Company 81",
+    "segment": "CONSUMER",
+    "country": "GB",
+    "signup_date": "2024-10-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 82,
+    "customer_code": "CUST-000082",
+    "customer_name": "Customer Company 82",
+    "segment": "GOVERNMENT",
+    "country": "US",
+    "signup_date": "2024-07-18",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 83,
+    "customer_code": "CUST-000083",
+    "customer_name": "Customer Company 83",
+    "segment": "ENTERPRISE",
+    "country": "IN",
+    "signup_date": "2023-06-02",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 84,
+    "customer_code": "CUST-000084",
+    "customer_name": "Customer Company 84",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2023-06-01",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 85,
+    "customer_code": "CUST-000085",
+    "customer_name": "Customer Company 85",
+    "segment": "ENTERPRISE",
+    "country": "IN",
+    "signup_date": "2024-01-09",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 86,
+    "customer_code": "CUST-000086",
+    "customer_name": "Customer Company 86",
+    "segment": "ENTERPRISE",
+    "country": "IN",
+    "signup_date": "2023-09-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 87,
+    "customer_code": "CUST-000087",
+    "customer_name": "Customer Company 87",
+    "segment": "SMB",
+    "country": "DE",
+    "signup_date": "2024-02-21",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 88,
+    "customer_code": "CUST-000088",
+    "customer_name": "Customer Company 88",
+    "segment": "GOVERNMENT",
+    "country": "US",
+    "signup_date": "2023-07-01",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 89,
+    "customer_code": "CUST-000089",
+    "customer_name": "Customer Company 89",
+    "segment": "GOVERNMENT",
+    "country": "DE",
+    "signup_date": "2023-12-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 90,
+    "customer_code": "CUST-000090",
+    "customer_name": "Customer Company 90",
+    "segment": "GOVERNMENT",
+    "country": "US",
+    "signup_date": "2023-04-21",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 91,
+    "customer_code": "CUST-000091",
+    "customer_name": "Customer Company 91",
+    "segment": "SMB",
+    "country": "AU",
+    "signup_date": "2023-08-16",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 92,
+    "customer_code": "CUST-000092",
+    "customer_name": "Customer Company 92",
+    "segment": "SMB",
+    "country": "US",
+    "signup_date": "2023-08-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 93,
+    "customer_code": "CUST-000093",
+    "customer_name": "Customer Company 93",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2024-02-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 94,
+    "customer_code": "CUST-000094",
+    "customer_name": "Customer Company 94",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2023-10-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 95,
+    "customer_code": "CUST-000095",
+    "customer_name": "Customer Company 95",
+    "segment": "CONSUMER",
+    "country": "US",
+    "signup_date": "2024-07-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 96,
+    "customer_code": "CUST-000096",
+    "customer_name": "Customer Company 96",
+    "segment": "SMB",
+    "country": "FR",
+    "signup_date": "2023-09-25",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 97,
+    "customer_code": "CUST-000097",
+    "customer_name": "Customer Company 97",
+    "segment": "GOVERNMENT",
+    "country": "IN",
+    "signup_date": "2024-09-02",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 98,
+    "customer_code": "CUST-000098",
+    "customer_name": "Customer Company 98",
+    "segment": "GOVERNMENT",
+    "country": "CA",
+    "signup_date": "2023-11-18",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 99,
+    "customer_code": "CUST-000099",
+    "customer_name": "Customer Company 99",
+    "segment": "SMB",
+    "country": "FR",
+    "signup_date": "2024-08-13",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 100,
+    "customer_code": "CUST-000100",
+    "customer_name": "Customer Company 100",
+    "segment": "ENTERPRISE",
+    "country": "DE",
+    "signup_date": "2024-03-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 101,
+    "customer_code": "CUST-000101",
+    "customer_name": "Customer Company 101",
+    "segment": "CONSUMER",
+    "country": "IN",
+    "signup_date": "2023-03-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 102,
+    "customer_code": "CUST-000102",
+    "customer_name": "Customer Company 102",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2023-05-08",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 103,
+    "customer_code": "CUST-000103",
+    "customer_name": "Customer Company 103",
+    "segment": "GOVERNMENT",
+    "country": "FR",
+    "signup_date": "2023-12-01",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 104,
+    "customer_code": "CUST-000104",
+    "customer_name": "Customer Company 104",
+    "segment": "GOVERNMENT",
+    "country": "JP",
+    "signup_date": "2023-07-16",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 105,
+    "customer_code": "CUST-000105",
+    "customer_name": "Customer Company 105",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2023-06-28",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 106,
+    "customer_code": "CUST-000106",
+    "customer_name": "Customer Company 106",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2023-01-01",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 107,
+    "customer_code": "CUST-000107",
+    "customer_name": "Customer Company 107",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2024-08-16",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 108,
+    "customer_code": "CUST-000108",
+    "customer_name": "Customer Company 108",
+    "segment": "SMB",
+    "country": "AU",
+    "signup_date": "2024-11-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 109,
+    "customer_code": "CUST-000109",
+    "customer_name": "Customer Company 109",
+    "segment": "ENTERPRISE",
+    "country": "FR",
+    "signup_date": "2023-06-23",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 110,
+    "customer_code": "CUST-000110",
+    "customer_name": "Customer Company 110",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2024-10-10",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 111,
+    "customer_code": "CUST-000111",
+    "customer_name": "Customer Company 111",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2023-08-29",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 112,
+    "customer_code": "CUST-000112",
+    "customer_name": "Customer Company 112",
+    "segment": "ENTERPRISE",
+    "country": "US",
+    "signup_date": "2023-05-31",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 113,
+    "customer_code": "CUST-000113",
+    "customer_name": "Customer Company 113",
+    "segment": "ENTERPRISE",
+    "country": "AU",
+    "signup_date": "2024-05-01",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 114,
+    "customer_code": "CUST-000114",
+    "customer_name": "Customer Company 114",
+    "segment": "SMB",
+    "country": "JP",
+    "signup_date": "2024-10-06",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 115,
+    "customer_code": "CUST-000115",
+    "customer_name": "Customer Company 115",
+    "segment": "SMB",
+    "country": "US",
+    "signup_date": "2023-09-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 116,
+    "customer_code": "CUST-000116",
+    "customer_name": "Customer Company 116",
+    "segment": "GOVERNMENT",
+    "country": "DE",
+    "signup_date": "2023-04-20",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 117,
+    "customer_code": "CUST-000117",
+    "customer_name": "Customer Company 117",
+    "segment": "GOVERNMENT",
+    "country": "US",
+    "signup_date": "2024-06-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 118,
+    "customer_code": "CUST-000118",
+    "customer_name": "Customer Company 118",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2023-05-05",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 119,
+    "customer_code": "CUST-000119",
+    "customer_name": "Customer Company 119",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2024-11-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 120,
+    "customer_code": "CUST-000120",
+    "customer_name": "Customer Company 120",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2024-05-31",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 121,
+    "customer_code": "CUST-000121",
+    "customer_name": "Customer Company 121",
+    "segment": "GOVERNMENT",
+    "country": "FR",
+    "signup_date": "2024-05-01",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 122,
+    "customer_code": "CUST-000122",
+    "customer_name": "Customer Company 122",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2024-10-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 123,
+    "customer_code": "CUST-000123",
+    "customer_name": "Customer Company 123",
+    "segment": "GOVERNMENT",
+    "country": "CA",
+    "signup_date": "2023-10-09",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 124,
+    "customer_code": "CUST-000124",
+    "customer_name": "Customer Company 124",
+    "segment": "CONSUMER",
+    "country": "IN",
+    "signup_date": "2023-08-29",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 125,
+    "customer_code": "CUST-000125",
+    "customer_name": "Customer Company 125",
+    "segment": "ENTERPRISE",
+    "country": "GB",
+    "signup_date": "2024-07-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 126,
+    "customer_code": "CUST-000126",
+    "customer_name": "Customer Company 126",
+    "segment": "SMB",
+    "country": "DE",
+    "signup_date": "2024-01-28",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 127,
+    "customer_code": "CUST-000127",
+    "customer_name": "Customer Company 127",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2024-02-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 128,
+    "customer_code": "CUST-000128",
+    "customer_name": "Customer Company 128",
+    "segment": "GOVERNMENT",
+    "country": "JP",
+    "signup_date": "2023-07-31",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 129,
+    "customer_code": "CUST-000129",
+    "customer_name": "Customer Company 129",
+    "segment": "ENTERPRISE",
+    "country": "JP",
+    "signup_date": "2024-08-21",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 130,
+    "customer_code": "CUST-000130",
+    "customer_name": "Customer Company 130",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2023-12-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 131,
+    "customer_code": "CUST-000131",
+    "customer_name": "Customer Company 131",
+    "segment": "SMB",
+    "country": "AU",
+    "signup_date": "2024-03-05",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 132,
+    "customer_code": "CUST-000132",
+    "customer_name": "Customer Company 132",
+    "segment": "GOVERNMENT",
+    "country": "US",
+    "signup_date": "2024-03-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 133,
+    "customer_code": "CUST-000133",
+    "customer_name": "Customer Company 133",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2024-11-15",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 134,
+    "customer_code": "CUST-000134",
+    "customer_name": "Customer Company 134",
+    "segment": "ENTERPRISE",
+    "country": "JP",
+    "signup_date": "2023-05-11",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 135,
+    "customer_code": "CUST-000135",
+    "customer_name": "Customer Company 135",
+    "segment": "ENTERPRISE",
+    "country": "CA",
+    "signup_date": "2024-11-09",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 136,
+    "customer_code": "CUST-000136",
+    "customer_name": "Customer Company 136",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2023-05-19",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 137,
+    "customer_code": "CUST-000137",
+    "customer_name": "Customer Company 137",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2024-01-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 138,
+    "customer_code": "CUST-000138",
+    "customer_name": "Customer Company 138",
+    "segment": "GOVERNMENT",
+    "country": "FR",
+    "signup_date": "2023-12-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 139,
+    "customer_code": "CUST-000139",
+    "customer_name": "Customer Company 139",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2024-03-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 140,
+    "customer_code": "CUST-000140",
+    "customer_name": "Customer Company 140",
+    "segment": "ENTERPRISE",
+    "country": "IN",
+    "signup_date": "2024-07-06",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 141,
+    "customer_code": "CUST-000141",
+    "customer_name": "Customer Company 141",
+    "segment": "ENTERPRISE",
+    "country": "US",
+    "signup_date": "2023-03-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 142,
+    "customer_code": "CUST-000142",
+    "customer_name": "Customer Company 142",
+    "segment": "ENTERPRISE",
+    "country": "GB",
+    "signup_date": "2023-07-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 143,
+    "customer_code": "CUST-000143",
+    "customer_name": "Customer Company 143",
+    "segment": "ENTERPRISE",
+    "country": "DE",
+    "signup_date": "2024-04-29",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 144,
+    "customer_code": "CUST-000144",
+    "customer_name": "Customer Company 144",
+    "segment": "CONSUMER",
+    "country": "GB",
+    "signup_date": "2023-09-20",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 145,
+    "customer_code": "CUST-000145",
+    "customer_name": "Customer Company 145",
+    "segment": "SMB",
+    "country": "FR",
+    "signup_date": "2023-04-28",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 146,
+    "customer_code": "CUST-000146",
+    "customer_name": "Customer Company 146",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2023-01-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 147,
+    "customer_code": "CUST-000147",
+    "customer_name": "Customer Company 147",
+    "segment": "ENTERPRISE",
+    "country": "DE",
+    "signup_date": "2023-07-23",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 148,
+    "customer_code": "CUST-000148",
+    "customer_name": "Customer Company 148",
+    "segment": "ENTERPRISE",
+    "country": "US",
+    "signup_date": "2023-11-05",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 149,
+    "customer_code": "CUST-000149",
+    "customer_name": "Customer Company 149",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2024-03-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 150,
+    "customer_code": "CUST-000150",
+    "customer_name": "Customer Company 150",
+    "segment": "ENTERPRISE",
+    "country": "JP",
+    "signup_date": "2023-12-16",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 151,
+    "customer_code": "CUST-000151",
+    "customer_name": "Customer Company 151",
+    "segment": "GOVERNMENT",
+    "country": "IN",
+    "signup_date": "2023-04-19",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 152,
+    "customer_code": "CUST-000152",
+    "customer_name": "Customer Company 152",
+    "segment": "SMB",
+    "country": "JP",
+    "signup_date": "2024-04-15",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 153,
+    "customer_code": "CUST-000153",
+    "customer_name": "Customer Company 153",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2024-06-18",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 154,
+    "customer_code": "CUST-000154",
+    "customer_name": "Customer Company 154",
+    "segment": "CONSUMER",
+    "country": "IN",
+    "signup_date": "2024-08-29",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 155,
+    "customer_code": "CUST-000155",
+    "customer_name": "Customer Company 155",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2023-03-30",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 156,
+    "customer_code": "CUST-000156",
+    "customer_name": "Customer Company 156",
+    "segment": "GOVERNMENT",
+    "country": "IN",
+    "signup_date": "2024-04-20",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 157,
+    "customer_code": "CUST-000157",
+    "customer_name": "Customer Company 157",
+    "segment": "SMB",
+    "country": "AU",
+    "signup_date": "2023-11-29",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 158,
+    "customer_code": "CUST-000158",
+    "customer_name": "Customer Company 158",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2023-09-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 159,
+    "customer_code": "CUST-000159",
+    "customer_name": "Customer Company 159",
+    "segment": "ENTERPRISE",
+    "country": "DE",
+    "signup_date": "2023-10-10",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 160,
+    "customer_code": "CUST-000160",
+    "customer_name": "Customer Company 160",
+    "segment": "GOVERNMENT",
+    "country": "DE",
+    "signup_date": "2024-02-21",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 161,
+    "customer_code": "CUST-000161",
+    "customer_name": "Customer Company 161",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2024-10-23",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 162,
+    "customer_code": "CUST-000162",
+    "customer_name": "Customer Company 162",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2023-04-06",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 163,
+    "customer_code": "CUST-000163",
+    "customer_name": "Customer Company 163",
+    "segment": "CONSUMER",
+    "country": "IN",
+    "signup_date": "2023-09-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 164,
+    "customer_code": "CUST-000164",
+    "customer_name": "Customer Company 164",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2024-06-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 165,
+    "customer_code": "CUST-000165",
+    "customer_name": "Customer Company 165",
+    "segment": "CONSUMER",
+    "country": "IN",
+    "signup_date": "2024-07-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 166,
+    "customer_code": "CUST-000166",
+    "customer_name": "Customer Company 166",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2023-10-05",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 167,
+    "customer_code": "CUST-000167",
+    "customer_name": "Customer Company 167",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2023-07-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 168,
+    "customer_code": "CUST-000168",
+    "customer_name": "Customer Company 168",
+    "segment": "SMB",
+    "country": "DE",
+    "signup_date": "2023-07-09",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 169,
+    "customer_code": "CUST-000169",
+    "customer_name": "Customer Company 169",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2023-10-11",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 170,
+    "customer_code": "CUST-000170",
+    "customer_name": "Customer Company 170",
+    "segment": "SMB",
+    "country": "IN",
+    "signup_date": "2023-10-31",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 171,
+    "customer_code": "CUST-000171",
+    "customer_name": "Customer Company 171",
+    "segment": "SMB",
+    "country": "FR",
+    "signup_date": "2023-01-15",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 172,
+    "customer_code": "CUST-000172",
+    "customer_name": "Customer Company 172",
+    "segment": "CONSUMER",
+    "country": "GB",
+    "signup_date": "2023-02-25",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 173,
+    "customer_code": "CUST-000173",
+    "customer_name": "Customer Company 173",
+    "segment": "ENTERPRISE",
+    "country": "US",
+    "signup_date": "2024-05-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 174,
+    "customer_code": "CUST-000174",
+    "customer_name": "Customer Company 174",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2024-04-25",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 175,
+    "customer_code": "CUST-000175",
+    "customer_name": "Customer Company 175",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2023-02-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 176,
+    "customer_code": "CUST-000176",
+    "customer_name": "Customer Company 176",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2023-03-08",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 177,
+    "customer_code": "CUST-000177",
+    "customer_name": "Customer Company 177",
+    "segment": "ENTERPRISE",
+    "country": "GB",
+    "signup_date": "2024-10-06",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 178,
+    "customer_code": "CUST-000178",
+    "customer_name": "Customer Company 178",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2024-07-30",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 179,
+    "customer_code": "CUST-000179",
+    "customer_name": "Customer Company 179",
+    "segment": "GOVERNMENT",
+    "country": "DE",
+    "signup_date": "2023-05-02",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 180,
+    "customer_code": "CUST-000180",
+    "customer_name": "Customer Company 180",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2024-01-25",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 181,
+    "customer_code": "CUST-000181",
+    "customer_name": "Customer Company 181",
+    "segment": "GOVERNMENT",
+    "country": "FR",
+    "signup_date": "2024-08-25",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 182,
+    "customer_code": "CUST-000182",
+    "customer_name": "Customer Company 182",
+    "segment": "ENTERPRISE",
+    "country": "DE",
+    "signup_date": "2023-03-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 183,
+    "customer_code": "CUST-000183",
+    "customer_name": "Customer Company 183",
+    "segment": "ENTERPRISE",
+    "country": "GB",
+    "signup_date": "2023-09-28",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 184,
+    "customer_code": "CUST-000184",
+    "customer_name": "Customer Company 184",
+    "segment": "ENTERPRISE",
+    "country": "GB",
+    "signup_date": "2024-07-19",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 185,
+    "customer_code": "CUST-000185",
+    "customer_name": "Customer Company 185",
+    "segment": "GOVERNMENT",
+    "country": "FR",
+    "signup_date": "2024-04-06",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 186,
+    "customer_code": "CUST-000186",
+    "customer_name": "Customer Company 186",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2023-10-23",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 187,
+    "customer_code": "CUST-000187",
+    "customer_name": "Customer Company 187",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2023-08-28",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 188,
+    "customer_code": "CUST-000188",
+    "customer_name": "Customer Company 188",
+    "segment": "SMB",
+    "country": "GB",
+    "signup_date": "2024-07-11",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 189,
+    "customer_code": "CUST-000189",
+    "customer_name": "Customer Company 189",
+    "segment": "ENTERPRISE",
+    "country": "US",
+    "signup_date": "2023-05-26",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 190,
+    "customer_code": "CUST-000190",
+    "customer_name": "Customer Company 190",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2023-11-11",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 191,
+    "customer_code": "CUST-000191",
+    "customer_name": "Customer Company 191",
+    "segment": "GOVERNMENT",
+    "country": "FR",
+    "signup_date": "2023-11-08",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 192,
+    "customer_code": "CUST-000192",
+    "customer_name": "Customer Company 192",
+    "segment": "GOVERNMENT",
+    "country": "CA",
+    "signup_date": "2024-05-20",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 193,
+    "customer_code": "CUST-000193",
+    "customer_name": "Customer Company 193",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2024-03-18",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 194,
+    "customer_code": "CUST-000194",
+    "customer_name": "Customer Company 194",
+    "segment": "ENTERPRISE",
+    "country": "FR",
+    "signup_date": "2023-08-23",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 195,
+    "customer_code": "CUST-000195",
+    "customer_name": "Customer Company 195",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2023-06-29",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 196,
+    "customer_code": "CUST-000196",
+    "customer_name": "Customer Company 196",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2023-07-05",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 197,
+    "customer_code": "CUST-000197",
+    "customer_name": "Customer Company 197",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2024-04-26",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 198,
+    "customer_code": "CUST-000198",
+    "customer_name": "Customer Company 198",
+    "segment": "ENTERPRISE",
+    "country": "GB",
+    "signup_date": "2024-11-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 199,
+    "customer_code": "CUST-000199",
+    "customer_name": "Customer Company 199",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2024-05-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 200,
+    "customer_code": "CUST-000200",
+    "customer_name": "Customer Company 200",
+    "segment": "ENTERPRISE",
+    "country": "AU",
+    "signup_date": "2024-07-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 201,
+    "customer_code": "CUST-000201",
+    "customer_name": "Customer Company 201",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2023-09-16",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 202,
+    "customer_code": "CUST-000202",
+    "customer_name": "Customer Company 202",
+    "segment": "ENTERPRISE",
+    "country": "AU",
+    "signup_date": "2024-02-18",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 203,
+    "customer_code": "CUST-000203",
+    "customer_name": "Customer Company 203",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2023-07-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 204,
+    "customer_code": "CUST-000204",
+    "customer_name": "Customer Company 204",
+    "segment": "SMB",
+    "country": "FR",
+    "signup_date": "2023-02-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 205,
+    "customer_code": "CUST-000205",
+    "customer_name": "Customer Company 205",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2023-10-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 206,
+    "customer_code": "CUST-000206",
+    "customer_name": "Customer Company 206",
+    "segment": "SMB",
+    "country": "GB",
+    "signup_date": "2024-10-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 207,
+    "customer_code": "CUST-000207",
+    "customer_name": "Customer Company 207",
+    "segment": "GOVERNMENT",
+    "country": "CA",
+    "signup_date": "2023-01-15",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 208,
+    "customer_code": "CUST-000208",
+    "customer_name": "Customer Company 208",
+    "segment": "GOVERNMENT",
+    "country": "CA",
+    "signup_date": "2023-04-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 209,
+    "customer_code": "CUST-000209",
+    "customer_name": "Customer Company 209",
+    "segment": "GOVERNMENT",
+    "country": "FR",
+    "signup_date": "2023-06-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 210,
+    "customer_code": "CUST-000210",
+    "customer_name": "Customer Company 210",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2023-10-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 211,
+    "customer_code": "CUST-000211",
+    "customer_name": "Customer Company 211",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2023-09-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 212,
+    "customer_code": "CUST-000212",
+    "customer_name": "Customer Company 212",
+    "segment": "SMB",
+    "country": "CA",
+    "signup_date": "2024-09-05",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 213,
+    "customer_code": "CUST-000213",
+    "customer_name": "Customer Company 213",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2024-02-29",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 214,
+    "customer_code": "CUST-000214",
+    "customer_name": "Customer Company 214",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2023-10-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 215,
+    "customer_code": "CUST-000215",
+    "customer_name": "Customer Company 215",
+    "segment": "GOVERNMENT",
+    "country": "IN",
+    "signup_date": "2024-04-02",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 216,
+    "customer_code": "CUST-000216",
+    "customer_name": "Customer Company 216",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2024-07-10",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 217,
+    "customer_code": "CUST-000217",
+    "customer_name": "Customer Company 217",
+    "segment": "SMB",
+    "country": "JP",
+    "signup_date": "2023-07-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 218,
+    "customer_code": "CUST-000218",
+    "customer_name": "Customer Company 218",
+    "segment": "ENTERPRISE",
+    "country": "IN",
+    "signup_date": "2024-02-25",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 219,
+    "customer_code": "CUST-000219",
+    "customer_name": "Customer Company 219",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2024-01-26",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 220,
+    "customer_code": "CUST-000220",
+    "customer_name": "Customer Company 220",
+    "segment": "SMB",
+    "country": "IN",
+    "signup_date": "2023-02-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 221,
+    "customer_code": "CUST-000221",
+    "customer_name": "Customer Company 221",
+    "segment": "ENTERPRISE",
+    "country": "AU",
+    "signup_date": "2024-03-26",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 222,
+    "customer_code": "CUST-000222",
+    "customer_name": "Customer Company 222",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2023-05-28",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 223,
+    "customer_code": "CUST-000223",
+    "customer_name": "Customer Company 223",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2023-09-29",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 224,
+    "customer_code": "CUST-000224",
+    "customer_name": "Customer Company 224",
+    "segment": "GOVERNMENT",
+    "country": "IN",
+    "signup_date": "2023-12-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 225,
+    "customer_code": "CUST-000225",
+    "customer_name": "Customer Company 225",
+    "segment": "ENTERPRISE",
+    "country": "CA",
+    "signup_date": "2024-05-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 226,
+    "customer_code": "CUST-000226",
+    "customer_name": "Customer Company 226",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2024-12-01",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 227,
+    "customer_code": "CUST-000227",
+    "customer_name": "Customer Company 227",
+    "segment": "ENTERPRISE",
+    "country": "CA",
+    "signup_date": "2024-03-20",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 228,
+    "customer_code": "CUST-000228",
+    "customer_name": "Customer Company 228",
+    "segment": "ENTERPRISE",
+    "country": "US",
+    "signup_date": "2023-11-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 229,
+    "customer_code": "CUST-000229",
+    "customer_name": "Customer Company 229",
+    "segment": "CONSUMER",
+    "country": "IN",
+    "signup_date": "2023-02-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 230,
+    "customer_code": "CUST-000230",
+    "customer_name": "Customer Company 230",
+    "segment": "SMB",
+    "country": "JP",
+    "signup_date": "2023-05-30",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 231,
+    "customer_code": "CUST-000231",
+    "customer_name": "Customer Company 231",
+    "segment": "SMB",
+    "country": "GB",
+    "signup_date": "2023-07-04",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 232,
+    "customer_code": "CUST-000232",
+    "customer_name": "Customer Company 232",
+    "segment": "SMB",
+    "country": "AU",
+    "signup_date": "2024-01-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 233,
+    "customer_code": "CUST-000233",
+    "customer_name": "Customer Company 233",
+    "segment": "SMB",
+    "country": "AU",
+    "signup_date": "2023-05-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 234,
+    "customer_code": "CUST-000234",
+    "customer_name": "Customer Company 234",
+    "segment": "CONSUMER",
+    "country": "US",
+    "signup_date": "2024-04-15",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 235,
+    "customer_code": "CUST-000235",
+    "customer_name": "Customer Company 235",
+    "segment": "CONSUMER",
+    "country": "GB",
+    "signup_date": "2024-04-21",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 236,
+    "customer_code": "CUST-000236",
+    "customer_name": "Customer Company 236",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2023-12-20",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 237,
+    "customer_code": "CUST-000237",
+    "customer_name": "Customer Company 237",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2024-04-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 238,
+    "customer_code": "CUST-000238",
+    "customer_name": "Customer Company 238",
+    "segment": "ENTERPRISE",
+    "country": "DE",
+    "signup_date": "2024-05-09",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 239,
+    "customer_code": "CUST-000239",
+    "customer_name": "Customer Company 239",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2024-01-03",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 240,
+    "customer_code": "CUST-000240",
+    "customer_name": "Customer Company 240",
+    "segment": "GOVERNMENT",
+    "country": "FR",
+    "signup_date": "2024-11-05",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 241,
+    "customer_code": "CUST-000241",
+    "customer_name": "Customer Company 241",
+    "segment": "GOVERNMENT",
+    "country": "FR",
+    "signup_date": "2023-02-20",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 242,
+    "customer_code": "CUST-000242",
+    "customer_name": "Customer Company 242",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2023-08-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 243,
+    "customer_code": "CUST-000243",
+    "customer_name": "Customer Company 243",
+    "segment": "CONSUMER",
+    "country": "GB",
+    "signup_date": "2024-09-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 244,
+    "customer_code": "CUST-000244",
+    "customer_name": "Customer Company 244",
+    "segment": "ENTERPRISE",
+    "country": "FR",
+    "signup_date": "2024-10-04",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 245,
+    "customer_code": "CUST-000245",
+    "customer_name": "Customer Company 245",
+    "segment": "CONSUMER",
+    "country": "GB",
+    "signup_date": "2023-02-04",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 246,
+    "customer_code": "CUST-000246",
+    "customer_name": "Customer Company 246",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2023-10-30",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 247,
+    "customer_code": "CUST-000247",
+    "customer_name": "Customer Company 247",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2023-05-16",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 248,
+    "customer_code": "CUST-000248",
+    "customer_name": "Customer Company 248",
+    "segment": "GOVERNMENT",
+    "country": "FR",
+    "signup_date": "2023-09-21",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 249,
+    "customer_code": "CUST-000249",
+    "customer_name": "Customer Company 249",
+    "segment": "ENTERPRISE",
+    "country": "AU",
+    "signup_date": "2023-12-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 250,
+    "customer_code": "CUST-000250",
+    "customer_name": "Customer Company 250",
+    "segment": "SMB",
+    "country": "JP",
+    "signup_date": "2023-05-25",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 251,
+    "customer_code": "CUST-000251",
+    "customer_name": "Customer Company 251",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2024-07-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 252,
+    "customer_code": "CUST-000252",
+    "customer_name": "Customer Company 252",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2023-01-15",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 253,
+    "customer_code": "CUST-000253",
+    "customer_name": "Customer Company 253",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2024-11-19",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 254,
+    "customer_code": "CUST-000254",
+    "customer_name": "Customer Company 254",
+    "segment": "ENTERPRISE",
+    "country": "DE",
+    "signup_date": "2024-01-16",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 255,
+    "customer_code": "CUST-000255",
+    "customer_name": "Customer Company 255",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2024-09-26",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 256,
+    "customer_code": "CUST-000256",
+    "customer_name": "Customer Company 256",
+    "segment": "GOVERNMENT",
+    "country": "FR",
+    "signup_date": "2024-10-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 257,
+    "customer_code": "CUST-000257",
+    "customer_name": "Customer Company 257",
+    "segment": "SMB",
+    "country": "US",
+    "signup_date": "2023-04-30",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 258,
+    "customer_code": "CUST-000258",
+    "customer_name": "Customer Company 258",
+    "segment": "GOVERNMENT",
+    "country": "CA",
+    "signup_date": "2023-11-08",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 259,
+    "customer_code": "CUST-000259",
+    "customer_name": "Customer Company 259",
+    "segment": "SMB",
+    "country": "JP",
+    "signup_date": "2024-07-04",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 260,
+    "customer_code": "CUST-000260",
+    "customer_name": "Customer Company 260",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2024-11-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 261,
+    "customer_code": "CUST-000261",
+    "customer_name": "Customer Company 261",
+    "segment": "ENTERPRISE",
+    "country": "AU",
+    "signup_date": "2024-11-01",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 262,
+    "customer_code": "CUST-000262",
+    "customer_name": "Customer Company 262",
+    "segment": "ENTERPRISE",
+    "country": "IN",
+    "signup_date": "2023-10-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 263,
+    "customer_code": "CUST-000263",
+    "customer_name": "Customer Company 263",
+    "segment": "SMB",
+    "country": "IN",
+    "signup_date": "2024-03-31",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 264,
+    "customer_code": "CUST-000264",
+    "customer_name": "Customer Company 264",
+    "segment": "CONSUMER",
+    "country": "US",
+    "signup_date": "2024-01-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 265,
+    "customer_code": "CUST-000265",
+    "customer_name": "Customer Company 265",
+    "segment": "ENTERPRISE",
+    "country": "AU",
+    "signup_date": "2023-07-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 266,
+    "customer_code": "CUST-000266",
+    "customer_name": "Customer Company 266",
+    "segment": "ENTERPRISE",
+    "country": "US",
+    "signup_date": "2023-08-06",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 267,
+    "customer_code": "CUST-000267",
+    "customer_name": "Customer Company 267",
+    "segment": "SMB",
+    "country": "DE",
+    "signup_date": "2023-09-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 268,
+    "customer_code": "CUST-000268",
+    "customer_name": "Customer Company 268",
+    "segment": "SMB",
+    "country": "DE",
+    "signup_date": "2024-07-21",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 269,
+    "customer_code": "CUST-000269",
+    "customer_name": "Customer Company 269",
+    "segment": "CONSUMER",
+    "country": "GB",
+    "signup_date": "2023-08-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 270,
+    "customer_code": "CUST-000270",
+    "customer_name": "Customer Company 270",
+    "segment": "ENTERPRISE",
+    "country": "FR",
+    "signup_date": "2024-09-02",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 271,
+    "customer_code": "CUST-000271",
+    "customer_name": "Customer Company 271",
+    "segment": "SMB",
+    "country": "FR",
+    "signup_date": "2023-05-29",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 272,
+    "customer_code": "CUST-000272",
+    "customer_name": "Customer Company 272",
+    "segment": "ENTERPRISE",
+    "country": "GB",
+    "signup_date": "2023-04-23",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 273,
+    "customer_code": "CUST-000273",
+    "customer_name": "Customer Company 273",
+    "segment": "CONSUMER",
+    "country": "US",
+    "signup_date": "2023-09-01",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 274,
+    "customer_code": "CUST-000274",
+    "customer_name": "Customer Company 274",
+    "segment": "SMB",
+    "country": "JP",
+    "signup_date": "2023-02-23",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 275,
+    "customer_code": "CUST-000275",
+    "customer_name": "Customer Company 275",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2023-03-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 276,
+    "customer_code": "CUST-000276",
+    "customer_name": "Customer Company 276",
+    "segment": "ENTERPRISE",
+    "country": "AU",
+    "signup_date": "2024-06-09",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 277,
+    "customer_code": "CUST-000277",
+    "customer_name": "Customer Company 277",
+    "segment": "ENTERPRISE",
+    "country": "FR",
+    "signup_date": "2024-09-21",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 278,
+    "customer_code": "CUST-000278",
+    "customer_name": "Customer Company 278",
+    "segment": "ENTERPRISE",
+    "country": "AU",
+    "signup_date": "2023-02-01",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 279,
+    "customer_code": "CUST-000279",
+    "customer_name": "Customer Company 279",
+    "segment": "ENTERPRISE",
+    "country": "AU",
+    "signup_date": "2024-03-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 280,
+    "customer_code": "CUST-000280",
+    "customer_name": "Customer Company 280",
+    "segment": "ENTERPRISE",
+    "country": "CA",
+    "signup_date": "2024-03-30",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 281,
+    "customer_code": "CUST-000281",
+    "customer_name": "Customer Company 281",
+    "segment": "ENTERPRISE",
+    "country": "GB",
+    "signup_date": "2023-06-01",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 282,
+    "customer_code": "CUST-000282",
+    "customer_name": "Customer Company 282",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2024-10-10",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 283,
+    "customer_code": "CUST-000283",
+    "customer_name": "Customer Company 283",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2024-06-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 284,
+    "customer_code": "CUST-000284",
+    "customer_name": "Customer Company 284",
+    "segment": "ENTERPRISE",
+    "country": "CA",
+    "signup_date": "2024-03-16",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 285,
+    "customer_code": "CUST-000285",
+    "customer_name": "Customer Company 285",
+    "segment": "SMB",
+    "country": "JP",
+    "signup_date": "2024-10-28",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 286,
+    "customer_code": "CUST-000286",
+    "customer_name": "Customer Company 286",
+    "segment": "GOVERNMENT",
+    "country": "IN",
+    "signup_date": "2023-08-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 287,
+    "customer_code": "CUST-000287",
+    "customer_name": "Customer Company 287",
+    "segment": "GOVERNMENT",
+    "country": "CA",
+    "signup_date": "2024-02-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 288,
+    "customer_code": "CUST-000288",
+    "customer_name": "Customer Company 288",
+    "segment": "CONSUMER",
+    "country": "IN",
+    "signup_date": "2023-11-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 289,
+    "customer_code": "CUST-000289",
+    "customer_name": "Customer Company 289",
+    "segment": "ENTERPRISE",
+    "country": "CA",
+    "signup_date": "2024-04-30",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 290,
+    "customer_code": "CUST-000290",
+    "customer_name": "Customer Company 290",
+    "segment": "GOVERNMENT",
+    "country": "CA",
+    "signup_date": "2023-04-06",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 291,
+    "customer_code": "CUST-000291",
+    "customer_name": "Customer Company 291",
+    "segment": "SMB",
+    "country": "US",
+    "signup_date": "2024-01-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 292,
+    "customer_code": "CUST-000292",
+    "customer_name": "Customer Company 292",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2024-07-29",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 293,
+    "customer_code": "CUST-000293",
+    "customer_name": "Customer Company 293",
+    "segment": "GOVERNMENT",
+    "country": "US",
+    "signup_date": "2024-11-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 294,
+    "customer_code": "CUST-000294",
+    "customer_name": "Customer Company 294",
+    "segment": "CONSUMER",
+    "country": "IN",
+    "signup_date": "2024-09-06",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 295,
+    "customer_code": "CUST-000295",
+    "customer_name": "Customer Company 295",
+    "segment": "SMB",
+    "country": "GB",
+    "signup_date": "2024-06-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 296,
+    "customer_code": "CUST-000296",
+    "customer_name": "Customer Company 296",
+    "segment": "ENTERPRISE",
+    "country": "IN",
+    "signup_date": "2023-08-18",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 297,
+    "customer_code": "CUST-000297",
+    "customer_name": "Customer Company 297",
+    "segment": "ENTERPRISE",
+    "country": "FR",
+    "signup_date": "2024-01-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 298,
+    "customer_code": "CUST-000298",
+    "customer_name": "Customer Company 298",
+    "segment": "ENTERPRISE",
+    "country": "FR",
+    "signup_date": "2024-03-15",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 299,
+    "customer_code": "CUST-000299",
+    "customer_name": "Customer Company 299",
+    "segment": "CONSUMER",
+    "country": "IN",
+    "signup_date": "2023-10-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 300,
+    "customer_code": "CUST-000300",
+    "customer_name": "Customer Company 300",
+    "segment": "SMB",
+    "country": "JP",
+    "signup_date": "2023-07-05",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 301,
+    "customer_code": "CUST-000301",
+    "customer_name": "Customer Company 301",
+    "segment": "ENTERPRISE",
+    "country": "CA",
+    "signup_date": "2024-10-10",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 302,
+    "customer_code": "CUST-000302",
+    "customer_name": "Customer Company 302",
+    "segment": "GOVERNMENT",
+    "country": "JP",
+    "signup_date": "2023-08-09",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 303,
+    "customer_code": "CUST-000303",
+    "customer_name": "Customer Company 303",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2023-06-11",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 304,
+    "customer_code": "CUST-000304",
+    "customer_name": "Customer Company 304",
+    "segment": "ENTERPRISE",
+    "country": "US",
+    "signup_date": "2024-08-04",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 305,
+    "customer_code": "CUST-000305",
+    "customer_name": "Customer Company 305",
+    "segment": "ENTERPRISE",
+    "country": "CA",
+    "signup_date": "2024-09-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 306,
+    "customer_code": "CUST-000306",
+    "customer_name": "Customer Company 306",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2024-11-08",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 307,
+    "customer_code": "CUST-000307",
+    "customer_name": "Customer Company 307",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2024-02-29",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 308,
+    "customer_code": "CUST-000308",
+    "customer_name": "Customer Company 308",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2023-04-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 309,
+    "customer_code": "CUST-000309",
+    "customer_name": "Customer Company 309",
+    "segment": "GOVERNMENT",
+    "country": "FR",
+    "signup_date": "2024-11-25",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 310,
+    "customer_code": "CUST-000310",
+    "customer_name": "Customer Company 310",
+    "segment": "ENTERPRISE",
+    "country": "US",
+    "signup_date": "2024-02-09",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 311,
+    "customer_code": "CUST-000311",
+    "customer_name": "Customer Company 311",
+    "segment": "SMB",
+    "country": "FR",
+    "signup_date": "2023-08-05",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 312,
+    "customer_code": "CUST-000312",
+    "customer_name": "Customer Company 312",
+    "segment": "ENTERPRISE",
+    "country": "AU",
+    "signup_date": "2023-05-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 313,
+    "customer_code": "CUST-000313",
+    "customer_name": "Customer Company 313",
+    "segment": "SMB",
+    "country": "JP",
+    "signup_date": "2023-06-29",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 314,
+    "customer_code": "CUST-000314",
+    "customer_name": "Customer Company 314",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2023-08-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 315,
+    "customer_code": "CUST-000315",
+    "customer_name": "Customer Company 315",
+    "segment": "GOVERNMENT",
+    "country": "US",
+    "signup_date": "2023-02-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 316,
+    "customer_code": "CUST-000316",
+    "customer_name": "Customer Company 316",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2023-03-21",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 317,
+    "customer_code": "CUST-000317",
+    "customer_name": "Customer Company 317",
+    "segment": "GOVERNMENT",
+    "country": "FR",
+    "signup_date": "2024-10-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 318,
+    "customer_code": "CUST-000318",
+    "customer_name": "Customer Company 318",
+    "segment": "CONSUMER",
+    "country": "GB",
+    "signup_date": "2023-01-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 319,
+    "customer_code": "CUST-000319",
+    "customer_name": "Customer Company 319",
+    "segment": "GOVERNMENT",
+    "country": "IN",
+    "signup_date": "2024-09-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 320,
+    "customer_code": "CUST-000320",
+    "customer_name": "Customer Company 320",
+    "segment": "SMB",
+    "country": "JP",
+    "signup_date": "2023-04-19",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 321,
+    "customer_code": "CUST-000321",
+    "customer_name": "Customer Company 321",
+    "segment": "ENTERPRISE",
+    "country": "JP",
+    "signup_date": "2024-06-20",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 322,
+    "customer_code": "CUST-000322",
+    "customer_name": "Customer Company 322",
+    "segment": "SMB",
+    "country": "IN",
+    "signup_date": "2023-12-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 323,
+    "customer_code": "CUST-000323",
+    "customer_name": "Customer Company 323",
+    "segment": "ENTERPRISE",
+    "country": "DE",
+    "signup_date": "2023-03-20",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 324,
+    "customer_code": "CUST-000324",
+    "customer_name": "Customer Company 324",
+    "segment": "CONSUMER",
+    "country": "GB",
+    "signup_date": "2023-12-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 325,
+    "customer_code": "CUST-000325",
+    "customer_name": "Customer Company 325",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2023-05-30",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 326,
+    "customer_code": "CUST-000326",
+    "customer_name": "Customer Company 326",
+    "segment": "ENTERPRISE",
+    "country": "GB",
+    "signup_date": "2023-06-06",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 327,
+    "customer_code": "CUST-000327",
+    "customer_name": "Customer Company 327",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2024-10-05",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 328,
+    "customer_code": "CUST-000328",
+    "customer_name": "Customer Company 328",
+    "segment": "GOVERNMENT",
+    "country": "IN",
+    "signup_date": "2024-08-16",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 329,
+    "customer_code": "CUST-000329",
+    "customer_name": "Customer Company 329",
+    "segment": "CONSUMER",
+    "country": "GB",
+    "signup_date": "2024-10-04",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 330,
+    "customer_code": "CUST-000330",
+    "customer_name": "Customer Company 330",
+    "segment": "GOVERNMENT",
+    "country": "FR",
+    "signup_date": "2024-04-25",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 331,
+    "customer_code": "CUST-000331",
+    "customer_name": "Customer Company 331",
+    "segment": "ENTERPRISE",
+    "country": "IN",
+    "signup_date": "2024-08-28",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 332,
+    "customer_code": "CUST-000332",
+    "customer_name": "Customer Company 332",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2023-11-14",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 333,
+    "customer_code": "CUST-000333",
+    "customer_name": "Customer Company 333",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2024-01-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 334,
+    "customer_code": "CUST-000334",
+    "customer_name": "Customer Company 334",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2023-04-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 335,
+    "customer_code": "CUST-000335",
+    "customer_name": "Customer Company 335",
+    "segment": "GOVERNMENT",
+    "country": "DE",
+    "signup_date": "2023-02-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 336,
+    "customer_code": "CUST-000336",
+    "customer_name": "Customer Company 336",
+    "segment": "SMB",
+    "country": "US",
+    "signup_date": "2024-05-02",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 337,
+    "customer_code": "CUST-000337",
+    "customer_name": "Customer Company 337",
+    "segment": "ENTERPRISE",
+    "country": "GB",
+    "signup_date": "2023-12-18",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 338,
+    "customer_code": "CUST-000338",
+    "customer_name": "Customer Company 338",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2024-03-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 339,
+    "customer_code": "CUST-000339",
+    "customer_name": "Customer Company 339",
+    "segment": "GOVERNMENT",
+    "country": "JP",
+    "signup_date": "2023-10-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 340,
+    "customer_code": "CUST-000340",
+    "customer_name": "Customer Company 340",
+    "segment": "ENTERPRISE",
+    "country": "IN",
+    "signup_date": "2024-11-26",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 341,
+    "customer_code": "CUST-000341",
+    "customer_name": "Customer Company 341",
+    "segment": "GOVERNMENT",
+    "country": "FR",
+    "signup_date": "2023-04-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 342,
+    "customer_code": "CUST-000342",
+    "customer_name": "Customer Company 342",
+    "segment": "SMB",
+    "country": "IN",
+    "signup_date": "2024-11-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 343,
+    "customer_code": "CUST-000343",
+    "customer_name": "Customer Company 343",
+    "segment": "SMB",
+    "country": "IN",
+    "signup_date": "2024-11-10",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 344,
+    "customer_code": "CUST-000344",
+    "customer_name": "Customer Company 344",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2024-11-02",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 345,
+    "customer_code": "CUST-000345",
+    "customer_name": "Customer Company 345",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2023-03-28",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 346,
+    "customer_code": "CUST-000346",
+    "customer_name": "Customer Company 346",
+    "segment": "SMB",
+    "country": "CA",
+    "signup_date": "2023-12-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 347,
+    "customer_code": "CUST-000347",
+    "customer_name": "Customer Company 347",
+    "segment": "CONSUMER",
+    "country": "US",
+    "signup_date": "2024-03-09",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 348,
+    "customer_code": "CUST-000348",
+    "customer_name": "Customer Company 348",
+    "segment": "SMB",
+    "country": "IN",
+    "signup_date": "2023-07-04",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 349,
+    "customer_code": "CUST-000349",
+    "customer_name": "Customer Company 349",
+    "segment": "SMB",
+    "country": "DE",
+    "signup_date": "2024-05-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 350,
+    "customer_code": "CUST-000350",
+    "customer_name": "Customer Company 350",
+    "segment": "ENTERPRISE",
+    "country": "FR",
+    "signup_date": "2023-06-08",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 351,
+    "customer_code": "CUST-000351",
+    "customer_name": "Customer Company 351",
+    "segment": "ENTERPRISE",
+    "country": "IN",
+    "signup_date": "2023-04-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 352,
+    "customer_code": "CUST-000352",
+    "customer_name": "Customer Company 352",
+    "segment": "SMB",
+    "country": "JP",
+    "signup_date": "2024-09-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 353,
+    "customer_code": "CUST-000353",
+    "customer_name": "Customer Company 353",
+    "segment": "SMB",
+    "country": "AU",
+    "signup_date": "2023-07-05",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 354,
+    "customer_code": "CUST-000354",
+    "customer_name": "Customer Company 354",
+    "segment": "SMB",
+    "country": "AU",
+    "signup_date": "2024-01-09",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 355,
+    "customer_code": "CUST-000355",
+    "customer_name": "Customer Company 355",
+    "segment": "SMB",
+    "country": "DE",
+    "signup_date": "2024-04-04",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 356,
+    "customer_code": "CUST-000356",
+    "customer_name": "Customer Company 356",
+    "segment": "SMB",
+    "country": "IN",
+    "signup_date": "2024-04-25",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 357,
+    "customer_code": "CUST-000357",
+    "customer_name": "Customer Company 357",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2024-08-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 358,
+    "customer_code": "CUST-000358",
+    "customer_name": "Customer Company 358",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2024-01-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 359,
+    "customer_code": "CUST-000359",
+    "customer_name": "Customer Company 359",
+    "segment": "SMB",
+    "country": "FR",
+    "signup_date": "2024-09-11",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 360,
+    "customer_code": "CUST-000360",
+    "customer_name": "Customer Company 360",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2024-05-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 361,
+    "customer_code": "CUST-000361",
+    "customer_name": "Customer Company 361",
+    "segment": "ENTERPRISE",
+    "country": "FR",
+    "signup_date": "2024-06-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 362,
+    "customer_code": "CUST-000362",
+    "customer_name": "Customer Company 362",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2023-06-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 363,
+    "customer_code": "CUST-000363",
+    "customer_name": "Customer Company 363",
+    "segment": "GOVERNMENT",
+    "country": "CA",
+    "signup_date": "2023-05-31",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 364,
+    "customer_code": "CUST-000364",
+    "customer_name": "Customer Company 364",
+    "segment": "GOVERNMENT",
+    "country": "IN",
+    "signup_date": "2023-08-16",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 365,
+    "customer_code": "CUST-000365",
+    "customer_name": "Customer Company 365",
+    "segment": "ENTERPRISE",
+    "country": "JP",
+    "signup_date": "2024-02-29",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 366,
+    "customer_code": "CUST-000366",
+    "customer_name": "Customer Company 366",
+    "segment": "GOVERNMENT",
+    "country": "CA",
+    "signup_date": "2023-08-30",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 367,
+    "customer_code": "CUST-000367",
+    "customer_name": "Customer Company 367",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2023-01-29",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 368,
+    "customer_code": "CUST-000368",
+    "customer_name": "Customer Company 368",
+    "segment": "CONSUMER",
+    "country": "GB",
+    "signup_date": "2024-10-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 369,
+    "customer_code": "CUST-000369",
+    "customer_name": "Customer Company 369",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2023-10-21",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 370,
+    "customer_code": "CUST-000370",
+    "customer_name": "Customer Company 370",
+    "segment": "GOVERNMENT",
+    "country": "US",
+    "signup_date": "2024-04-25",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 371,
+    "customer_code": "CUST-000371",
+    "customer_name": "Customer Company 371",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2023-01-20",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 372,
+    "customer_code": "CUST-000372",
+    "customer_name": "Customer Company 372",
+    "segment": "GOVERNMENT",
+    "country": "CA",
+    "signup_date": "2024-07-15",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 373,
+    "customer_code": "CUST-000373",
+    "customer_name": "Customer Company 373",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2023-09-01",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 374,
+    "customer_code": "CUST-000374",
+    "customer_name": "Customer Company 374",
+    "segment": "GOVERNMENT",
+    "country": "CA",
+    "signup_date": "2024-03-05",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 375,
+    "customer_code": "CUST-000375",
+    "customer_name": "Customer Company 375",
+    "segment": "ENTERPRISE",
+    "country": "DE",
+    "signup_date": "2024-05-26",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 376,
+    "customer_code": "CUST-000376",
+    "customer_name": "Customer Company 376",
+    "segment": "GOVERNMENT",
+    "country": "US",
+    "signup_date": "2023-10-26",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 377,
+    "customer_code": "CUST-000377",
+    "customer_name": "Customer Company 377",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2023-09-04",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 378,
+    "customer_code": "CUST-000378",
+    "customer_name": "Customer Company 378",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2023-03-29",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 379,
+    "customer_code": "CUST-000379",
+    "customer_name": "Customer Company 379",
+    "segment": "ENTERPRISE",
+    "country": "JP",
+    "signup_date": "2024-07-11",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 380,
+    "customer_code": "CUST-000380",
+    "customer_name": "Customer Company 380",
+    "segment": "GOVERNMENT",
+    "country": "IN",
+    "signup_date": "2023-02-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 381,
+    "customer_code": "CUST-000381",
+    "customer_name": "Customer Company 381",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2023-01-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 382,
+    "customer_code": "CUST-000382",
+    "customer_name": "Customer Company 382",
+    "segment": "ENTERPRISE",
+    "country": "IN",
+    "signup_date": "2024-11-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 383,
+    "customer_code": "CUST-000383",
+    "customer_name": "Customer Company 383",
+    "segment": "CONSUMER",
+    "country": "GB",
+    "signup_date": "2023-12-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 384,
+    "customer_code": "CUST-000384",
+    "customer_name": "Customer Company 384",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2024-04-20",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 385,
+    "customer_code": "CUST-000385",
+    "customer_name": "Customer Company 385",
+    "segment": "GOVERNMENT",
+    "country": "US",
+    "signup_date": "2023-03-06",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 386,
+    "customer_code": "CUST-000386",
+    "customer_name": "Customer Company 386",
+    "segment": "SMB",
+    "country": "US",
+    "signup_date": "2023-02-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 387,
+    "customer_code": "CUST-000387",
+    "customer_name": "Customer Company 387",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2023-11-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 388,
+    "customer_code": "CUST-000388",
+    "customer_name": "Customer Company 388",
+    "segment": "SMB",
+    "country": "FR",
+    "signup_date": "2024-10-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 389,
+    "customer_code": "CUST-000389",
+    "customer_name": "Customer Company 389",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2023-02-18",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 390,
+    "customer_code": "CUST-000390",
+    "customer_name": "Customer Company 390",
+    "segment": "GOVERNMENT",
+    "country": "JP",
+    "signup_date": "2024-01-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 391,
+    "customer_code": "CUST-000391",
+    "customer_name": "Customer Company 391",
+    "segment": "CONSUMER",
+    "country": "GB",
+    "signup_date": "2024-01-31",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 392,
+    "customer_code": "CUST-000392",
+    "customer_name": "Customer Company 392",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2024-05-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 393,
+    "customer_code": "CUST-000393",
+    "customer_name": "Customer Company 393",
+    "segment": "ENTERPRISE",
+    "country": "JP",
+    "signup_date": "2024-03-10",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 394,
+    "customer_code": "CUST-000394",
+    "customer_name": "Customer Company 394",
+    "segment": "CONSUMER",
+    "country": "IN",
+    "signup_date": "2023-07-04",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 395,
+    "customer_code": "CUST-000395",
+    "customer_name": "Customer Company 395",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2023-12-02",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 396,
+    "customer_code": "CUST-000396",
+    "customer_name": "Customer Company 396",
+    "segment": "SMB",
+    "country": "AU",
+    "signup_date": "2024-03-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 397,
+    "customer_code": "CUST-000397",
+    "customer_name": "Customer Company 397",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2023-02-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 398,
+    "customer_code": "CUST-000398",
+    "customer_name": "Customer Company 398",
+    "segment": "ENTERPRISE",
+    "country": "JP",
+    "signup_date": "2023-02-28",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 399,
+    "customer_code": "CUST-000399",
+    "customer_name": "Customer Company 399",
+    "segment": "SMB",
+    "country": "US",
+    "signup_date": "2024-11-26",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 400,
+    "customer_code": "CUST-000400",
+    "customer_name": "Customer Company 400",
+    "segment": "GOVERNMENT",
+    "country": "US",
+    "signup_date": "2024-09-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 401,
+    "customer_code": "CUST-000401",
+    "customer_name": "Customer Company 401",
+    "segment": "CONSUMER",
+    "country": "IN",
+    "signup_date": "2023-08-30",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 402,
+    "customer_code": "CUST-000402",
+    "customer_name": "Customer Company 402",
+    "segment": "ENTERPRISE",
+    "country": "GB",
+    "signup_date": "2024-08-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 403,
+    "customer_code": "CUST-000403",
+    "customer_name": "Customer Company 403",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2024-01-15",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 404,
+    "customer_code": "CUST-000404",
+    "customer_name": "Customer Company 404",
+    "segment": "SMB",
+    "country": "IN",
+    "signup_date": "2024-08-10",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 405,
+    "customer_code": "CUST-000405",
+    "customer_name": "Customer Company 405",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2024-10-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 406,
+    "customer_code": "CUST-000406",
+    "customer_name": "Customer Company 406",
+    "segment": "SMB",
+    "country": "AU",
+    "signup_date": "2023-01-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 407,
+    "customer_code": "CUST-000407",
+    "customer_name": "Customer Company 407",
+    "segment": "ENTERPRISE",
+    "country": "FR",
+    "signup_date": "2024-07-29",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 408,
+    "customer_code": "CUST-000408",
+    "customer_name": "Customer Company 408",
+    "segment": "SMB",
+    "country": "FR",
+    "signup_date": "2024-04-01",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 409,
+    "customer_code": "CUST-000409",
+    "customer_name": "Customer Company 409",
+    "segment": "SMB",
+    "country": "CA",
+    "signup_date": "2024-05-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 410,
+    "customer_code": "CUST-000410",
+    "customer_name": "Customer Company 410",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2023-03-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 411,
+    "customer_code": "CUST-000411",
+    "customer_name": "Customer Company 411",
+    "segment": "ENTERPRISE",
+    "country": "IN",
+    "signup_date": "2024-03-31",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 412,
+    "customer_code": "CUST-000412",
+    "customer_name": "Customer Company 412",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2023-03-08",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 413,
+    "customer_code": "CUST-000413",
+    "customer_name": "Customer Company 413",
+    "segment": "SMB",
+    "country": "IN",
+    "signup_date": "2024-10-15",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 414,
+    "customer_code": "CUST-000414",
+    "customer_name": "Customer Company 414",
+    "segment": "SMB",
+    "country": "GB",
+    "signup_date": "2023-05-05",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 415,
+    "customer_code": "CUST-000415",
+    "customer_name": "Customer Company 415",
+    "segment": "ENTERPRISE",
+    "country": "IN",
+    "signup_date": "2024-05-20",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 416,
+    "customer_code": "CUST-000416",
+    "customer_name": "Customer Company 416",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2024-01-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 417,
+    "customer_code": "CUST-000417",
+    "customer_name": "Customer Company 417",
+    "segment": "ENTERPRISE",
+    "country": "FR",
+    "signup_date": "2023-03-30",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 418,
+    "customer_code": "CUST-000418",
+    "customer_name": "Customer Company 418",
+    "segment": "GOVERNMENT",
+    "country": "JP",
+    "signup_date": "2024-05-05",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 419,
+    "customer_code": "CUST-000419",
+    "customer_name": "Customer Company 419",
+    "segment": "SMB",
+    "country": "IN",
+    "signup_date": "2023-03-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 420,
+    "customer_code": "CUST-000420",
+    "customer_name": "Customer Company 420",
+    "segment": "GOVERNMENT",
+    "country": "IN",
+    "signup_date": "2024-04-05",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 421,
+    "customer_code": "CUST-000421",
+    "customer_name": "Customer Company 421",
+    "segment": "SMB",
+    "country": "GB",
+    "signup_date": "2024-07-18",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 422,
+    "customer_code": "CUST-000422",
+    "customer_name": "Customer Company 422",
+    "segment": "ENTERPRISE",
+    "country": "GB",
+    "signup_date": "2023-02-26",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 423,
+    "customer_code": "CUST-000423",
+    "customer_name": "Customer Company 423",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2023-06-15",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 424,
+    "customer_code": "CUST-000424",
+    "customer_name": "Customer Company 424",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2024-06-15",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 425,
+    "customer_code": "CUST-000425",
+    "customer_name": "Customer Company 425",
+    "segment": "CONSUMER",
+    "country": "GB",
+    "signup_date": "2024-10-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 426,
+    "customer_code": "CUST-000426",
+    "customer_name": "Customer Company 426",
+    "segment": "ENTERPRISE",
+    "country": "GB",
+    "signup_date": "2024-09-21",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 427,
+    "customer_code": "CUST-000427",
+    "customer_name": "Customer Company 427",
+    "segment": "SMB",
+    "country": "GB",
+    "signup_date": "2024-08-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 428,
+    "customer_code": "CUST-000428",
+    "customer_name": "Customer Company 428",
+    "segment": "CONSUMER",
+    "country": "US",
+    "signup_date": "2024-09-11",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 429,
+    "customer_code": "CUST-000429",
+    "customer_name": "Customer Company 429",
+    "segment": "ENTERPRISE",
+    "country": "US",
+    "signup_date": "2023-01-30",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 430,
+    "customer_code": "CUST-000430",
+    "customer_name": "Customer Company 430",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2024-08-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 431,
+    "customer_code": "CUST-000431",
+    "customer_name": "Customer Company 431",
+    "segment": "ENTERPRISE",
+    "country": "AU",
+    "signup_date": "2024-03-02",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 432,
+    "customer_code": "CUST-000432",
+    "customer_name": "Customer Company 432",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2024-07-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 433,
+    "customer_code": "CUST-000433",
+    "customer_name": "Customer Company 433",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2024-02-20",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 434,
+    "customer_code": "CUST-000434",
+    "customer_name": "Customer Company 434",
+    "segment": "SMB",
+    "country": "AU",
+    "signup_date": "2023-03-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 435,
+    "customer_code": "CUST-000435",
+    "customer_name": "Customer Company 435",
+    "segment": "SMB",
+    "country": "IN",
+    "signup_date": "2024-04-20",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 436,
+    "customer_code": "CUST-000436",
+    "customer_name": "Customer Company 436",
+    "segment": "CONSUMER",
+    "country": "IN",
+    "signup_date": "2023-11-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 437,
+    "customer_code": "CUST-000437",
+    "customer_name": "Customer Company 437",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2023-05-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 438,
+    "customer_code": "CUST-000438",
+    "customer_name": "Customer Company 438",
+    "segment": "ENTERPRISE",
+    "country": "FR",
+    "signup_date": "2024-04-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 439,
+    "customer_code": "CUST-000439",
+    "customer_name": "Customer Company 439",
+    "segment": "ENTERPRISE",
+    "country": "US",
+    "signup_date": "2023-05-25",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 440,
+    "customer_code": "CUST-000440",
+    "customer_name": "Customer Company 440",
+    "segment": "GOVERNMENT",
+    "country": "DE",
+    "signup_date": "2024-01-29",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 441,
+    "customer_code": "CUST-000441",
+    "customer_name": "Customer Company 441",
+    "segment": "CONSUMER",
+    "country": "IN",
+    "signup_date": "2023-06-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 442,
+    "customer_code": "CUST-000442",
+    "customer_name": "Customer Company 442",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2023-06-13",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 443,
+    "customer_code": "CUST-000443",
+    "customer_name": "Customer Company 443",
+    "segment": "GOVERNMENT",
+    "country": "US",
+    "signup_date": "2023-11-12",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 444,
+    "customer_code": "CUST-000444",
+    "customer_name": "Customer Company 444",
+    "segment": "GOVERNMENT",
+    "country": "DE",
+    "signup_date": "2024-02-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 445,
+    "customer_code": "CUST-000445",
+    "customer_name": "Customer Company 445",
+    "segment": "ENTERPRISE",
+    "country": "US",
+    "signup_date": "2023-12-28",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 446,
+    "customer_code": "CUST-000446",
+    "customer_name": "Customer Company 446",
+    "segment": "GOVERNMENT",
+    "country": "FR",
+    "signup_date": "2024-09-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 447,
+    "customer_code": "CUST-000447",
+    "customer_name": "Customer Company 447",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2023-04-21",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 448,
+    "customer_code": "CUST-000448",
+    "customer_name": "Customer Company 448",
+    "segment": "GOVERNMENT",
+    "country": "IN",
+    "signup_date": "2024-01-10",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 449,
+    "customer_code": "CUST-000449",
+    "customer_name": "Customer Company 449",
+    "segment": "SMB",
+    "country": "IN",
+    "signup_date": "2023-02-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 450,
+    "customer_code": "CUST-000450",
+    "customer_name": "Customer Company 450",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2023-03-17",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 451,
+    "customer_code": "CUST-000451",
+    "customer_name": "Customer Company 451",
+    "segment": "ENTERPRISE",
+    "country": "GB",
+    "signup_date": "2023-10-14",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 452,
+    "customer_code": "CUST-000452",
+    "customer_name": "Customer Company 452",
+    "segment": "CONSUMER",
+    "country": "IN",
+    "signup_date": "2024-02-08",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 453,
+    "customer_code": "CUST-000453",
+    "customer_name": "Customer Company 453",
+    "segment": "SMB",
+    "country": "DE",
+    "signup_date": "2024-01-10",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 454,
+    "customer_code": "CUST-000454",
+    "customer_name": "Customer Company 454",
+    "segment": "ENTERPRISE",
+    "country": "US",
+    "signup_date": "2024-02-16",
+    "is_active": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 455,
+    "customer_code": "CUST-000455",
+    "customer_name": "Customer Company 455",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2023-12-08",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 456,
+    "customer_code": "CUST-000456",
+    "customer_name": "Customer Company 456",
+    "segment": "SMB",
+    "country": "IN",
+    "signup_date": "2024-06-11",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 457,
+    "customer_code": "CUST-000457",
+    "customer_name": "Customer Company 457",
+    "segment": "SMB",
+    "country": "JP",
+    "signup_date": "2023-11-23",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 458,
+    "customer_code": "CUST-000458",
+    "customer_name": "Customer Company 458",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2023-11-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 459,
+    "customer_code": "CUST-000459",
+    "customer_name": "Customer Company 459",
+    "segment": "GOVERNMENT",
+    "country": "US",
+    "signup_date": "2023-11-03",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 460,
+    "customer_code": "CUST-000460",
+    "customer_name": "Customer Company 460",
+    "segment": "ENTERPRISE",
+    "country": "JP",
+    "signup_date": "2024-11-20",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 461,
+    "customer_code": "CUST-000461",
+    "customer_name": "Customer Company 461",
+    "segment": "ENTERPRISE",
+    "country": "AU",
+    "signup_date": "2024-10-06",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 462,
+    "customer_code": "CUST-000462",
+    "customer_name": "Customer Company 462",
+    "segment": "SMB",
+    "country": "US",
+    "signup_date": "2024-11-02",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 463,
+    "customer_code": "CUST-000463",
+    "customer_name": "Customer Company 463",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2023-06-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 464,
+    "customer_code": "CUST-000464",
+    "customer_name": "Customer Company 464",
+    "segment": "ENTERPRISE",
+    "country": "CA",
+    "signup_date": "2023-09-06",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 465,
+    "customer_code": "CUST-000465",
+    "customer_name": "Customer Company 465",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2024-03-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 466,
+    "customer_code": "CUST-000466",
+    "customer_name": "Customer Company 466",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2023-07-28",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 467,
+    "customer_code": "CUST-000467",
+    "customer_name": "Customer Company 467",
+    "segment": "SMB",
+    "country": "DE",
+    "signup_date": "2023-03-05",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 468,
+    "customer_code": "CUST-000468",
+    "customer_name": "Customer Company 468",
+    "segment": "GOVERNMENT",
+    "country": "JP",
+    "signup_date": "2024-11-09",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 469,
+    "customer_code": "CUST-000469",
+    "customer_name": "Customer Company 469",
+    "segment": "GOVERNMENT",
+    "country": "IN",
+    "signup_date": "2023-06-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 470,
+    "customer_code": "CUST-000470",
+    "customer_name": "Customer Company 470",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2024-11-23",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 471,
+    "customer_code": "CUST-000471",
+    "customer_name": "Customer Company 471",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2023-09-10",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 472,
+    "customer_code": "CUST-000472",
+    "customer_name": "Customer Company 472",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2023-11-01",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 473,
+    "customer_code": "CUST-000473",
+    "customer_name": "Customer Company 473",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2024-05-15",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 474,
+    "customer_code": "CUST-000474",
+    "customer_name": "Customer Company 474",
+    "segment": "CONSUMER",
+    "country": "CA",
+    "signup_date": "2023-10-08",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 475,
+    "customer_code": "CUST-000475",
+    "customer_name": "Customer Company 475",
+    "segment": "GOVERNMENT",
+    "country": "JP",
+    "signup_date": "2024-07-10",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 476,
+    "customer_code": "CUST-000476",
+    "customer_name": "Customer Company 476",
+    "segment": "CONSUMER",
+    "country": "US",
+    "signup_date": "2023-05-30",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 477,
+    "customer_code": "CUST-000477",
+    "customer_name": "Customer Company 477",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2023-03-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 478,
+    "customer_code": "CUST-000478",
+    "customer_name": "Customer Company 478",
+    "segment": "SMB",
+    "country": "DE",
+    "signup_date": "2024-05-05",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 479,
+    "customer_code": "CUST-000479",
+    "customer_name": "Customer Company 479",
+    "segment": "CONSUMER",
+    "country": "GB",
+    "signup_date": "2023-10-05",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 480,
+    "customer_code": "CUST-000480",
+    "customer_name": "Customer Company 480",
+    "segment": "SMB",
+    "country": "DE",
+    "signup_date": "2024-08-23",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 481,
+    "customer_code": "CUST-000481",
+    "customer_name": "Customer Company 481",
+    "segment": "SMB",
+    "country": "DE",
+    "signup_date": "2024-06-27",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 482,
+    "customer_code": "CUST-000482",
+    "customer_name": "Customer Company 482",
+    "segment": "CONSUMER",
+    "country": "AU",
+    "signup_date": "2024-02-28",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 483,
+    "customer_code": "CUST-000483",
+    "customer_name": "Customer Company 483",
+    "segment": "ENTERPRISE",
+    "country": "GB",
+    "signup_date": "2023-05-21",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 484,
+    "customer_code": "CUST-000484",
+    "customer_name": "Customer Company 484",
+    "segment": "GOVERNMENT",
+    "country": "DE",
+    "signup_date": "2024-05-02",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 485,
+    "customer_code": "CUST-000485",
+    "customer_name": "Customer Company 485",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2023-10-22",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 486,
+    "customer_code": "CUST-000486",
+    "customer_name": "Customer Company 486",
+    "segment": "SMB",
+    "country": "US",
+    "signup_date": "2023-04-02",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 487,
+    "customer_code": "CUST-000487",
+    "customer_name": "Customer Company 487",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2023-06-29",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 488,
+    "customer_code": "CUST-000488",
+    "customer_name": "Customer Company 488",
+    "segment": "GOVERNMENT",
+    "country": "AU",
+    "signup_date": "2023-02-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 489,
+    "customer_code": "CUST-000489",
+    "customer_name": "Customer Company 489",
+    "segment": "ENTERPRISE",
+    "country": "US",
+    "signup_date": "2023-10-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 490,
+    "customer_code": "CUST-000490",
+    "customer_name": "Customer Company 490",
+    "segment": "ENTERPRISE",
+    "country": "IN",
+    "signup_date": "2024-09-09",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 491,
+    "customer_code": "CUST-000491",
+    "customer_name": "Customer Company 491",
+    "segment": "GOVERNMENT",
+    "country": "GB",
+    "signup_date": "2024-10-18",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 492,
+    "customer_code": "CUST-000492",
+    "customer_name": "Customer Company 492",
+    "segment": "CONSUMER",
+    "country": "DE",
+    "signup_date": "2024-04-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 493,
+    "customer_code": "CUST-000493",
+    "customer_name": "Customer Company 493",
+    "segment": "SMB",
+    "country": "AU",
+    "signup_date": "2023-12-05",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 494,
+    "customer_code": "CUST-000494",
+    "customer_name": "Customer Company 494",
+    "segment": "ENTERPRISE",
+    "country": "IN",
+    "signup_date": "2023-07-10",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 495,
+    "customer_code": "CUST-000495",
+    "customer_name": "Customer Company 495",
+    "segment": "SMB",
+    "country": "GB",
+    "signup_date": "2024-08-04",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 496,
+    "customer_code": "CUST-000496",
+    "customer_name": "Customer Company 496",
+    "segment": "GOVERNMENT",
+    "country": "JP",
+    "signup_date": "2024-10-16",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 497,
+    "customer_code": "CUST-000497",
+    "customer_name": "Customer Company 497",
+    "segment": "GOVERNMENT",
+    "country": "CA",
+    "signup_date": "2023-03-30",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 498,
+    "customer_code": "CUST-000498",
+    "customer_name": "Customer Company 498",
+    "segment": "GOVERNMENT",
+    "country": "IN",
+    "signup_date": "2023-05-24",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 499,
+    "customer_code": "CUST-000499",
+    "customer_name": "Customer Company 499",
+    "segment": "CONSUMER",
+    "country": "JP",
+    "signup_date": "2023-01-07",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "customer_id": 500,
+    "customer_code": "CUST-000500",
+    "customer_name": "Customer Company 500",
+    "segment": "CONSUMER",
+    "country": "FR",
+    "signup_date": "2023-10-01",
+    "is_active": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  }
+]

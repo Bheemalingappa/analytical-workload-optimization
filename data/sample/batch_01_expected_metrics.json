@@ -1,0 +1,17 @@
+{
+  "total_orders_generated": 5000,
+  "expected_valid_orders": 0,
+  "expected_quarantined_orders": 0,
+  "expected_valid_items": 0,
+  "expected_quarantined_items": 0,
+  "anomalies_injected": {
+    "malformed_date": 23,
+    "missing_field": 35,
+    "duplicate_key": 33,
+    "orphan_customer": 39,
+    "orphan_product": 40,
+    "negative_amount": 42,
+    "mismatched_line_total": 76,
+    "late_arriving": 118
+  }
+}

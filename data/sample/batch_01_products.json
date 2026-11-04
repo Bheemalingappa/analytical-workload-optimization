@@ -1,0 +1,2502 @@
+[
+  {
+    "product_id": 1,
+    "sku": "SKU-BOO-00001",
+    "product_name": "Books Item 1",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "base_price": 399.71,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 2,
+    "sku": "SKU-APP-00002",
+    "product_name": "Appliances Item 2",
+    "category": "Appliances",
+    "subcategory": "Kitchen",
+    "base_price": 1005.0,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 3,
+    "sku": "SKU-APP-00003",
+    "product_name": "Appliances Item 3",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 1032.25,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 4,
+    "sku": "SKU-FUR-00004",
+    "product_name": "Furniture Item 4",
+    "category": "Furniture",
+    "subcategory": "Storage",
+    "base_price": 184.95,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 5,
+    "sku": "SKU-FUR-00005",
+    "product_name": "Furniture Item 5",
+    "category": "Furniture",
+    "subcategory": "Chairs",
+    "base_price": 925.79,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 6,
+    "sku": "SKU-APP-00006",
+    "product_name": "Appliances Item 6",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 238.25,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 7,
+    "sku": "SKU-BOO-00007",
+    "product_name": "Books Item 7",
+    "category": "Books",
+    "subcategory": "Technical",
+    "base_price": 629.61,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 8,
+    "sku": "SKU-APP-00008",
+    "product_name": "Apparel Item 8",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "base_price": 1204.97,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 9,
+    "sku": "SKU-APP-00009",
+    "product_name": "Appliances Item 9",
+    "category": "Appliances",
+    "subcategory": "Climate",
+    "base_price": 1134.56,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 10,
+    "sku": "SKU-ELE-00010",
+    "product_name": "Electronics Item 10",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "base_price": 796.98,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 11,
+    "sku": "SKU-BOO-00011",
+    "product_name": "Books Item 11",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "base_price": 102.02,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 12,
+    "sku": "SKU-BOO-00012",
+    "product_name": "Books Item 12",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "base_price": 863.33,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 13,
+    "sku": "SKU-FUR-00013",
+    "product_name": "Furniture Item 13",
+    "category": "Furniture",
+    "subcategory": "Storage",
+    "base_price": 668.34,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 14,
+    "sku": "SKU-BOO-00014",
+    "product_name": "Books Item 14",
+    "category": "Books",
+    "subcategory": "Technical",
+    "base_price": 145.5,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 15,
+    "sku": "SKU-ELE-00015",
+    "product_name": "Electronics Item 15",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "base_price": 206.6,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 16,
+    "sku": "SKU-BOO-00016",
+    "product_name": "Books Item 16",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "base_price": 842.61,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 17,
+    "sku": "SKU-FUR-00017",
+    "product_name": "Furniture Item 17",
+    "category": "Furniture",
+    "subcategory": "Storage",
+    "base_price": 42.44,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 18,
+    "sku": "SKU-ELE-00018",
+    "product_name": "Electronics Item 18",
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "base_price": 871.68,
+    "is_discontinued": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 19,
+    "sku": "SKU-FUR-00019",
+    "product_name": "Furniture Item 19",
+    "category": "Furniture",
+    "subcategory": "Storage",
+    "base_price": 105.0,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 20,
+    "sku": "SKU-ELE-00020",
+    "product_name": "Electronics Item 20",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "base_price": 57.28,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 21,
+    "sku": "SKU-APP-00021",
+    "product_name": "Appliances Item 21",
+    "category": "Appliances",
+    "subcategory": "Climate",
+    "base_price": 1467.72,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 22,
+    "sku": "SKU-APP-00022",
+    "product_name": "Apparel Item 22",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 1489.36,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 23,
+    "sku": "SKU-APP-00023",
+    "product_name": "Apparel Item 23",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 129.57,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 24,
+    "sku": "SKU-BOO-00024",
+    "product_name": "Books Item 24",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "base_price": 983.77,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 25,
+    "sku": "SKU-APP-00025",
+    "product_name": "Appliances Item 25",
+    "category": "Appliances",
+    "subcategory": "Climate",
+    "base_price": 595.66,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 26,
+    "sku": "SKU-APP-00026",
+    "product_name": "Appliances Item 26",
+    "category": "Appliances",
+    "subcategory": "Kitchen",
+    "base_price": 1136.71,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 27,
+    "sku": "SKU-APP-00027",
+    "product_name": "Apparel Item 27",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "base_price": 1081.45,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 28,
+    "sku": "SKU-APP-00028",
+    "product_name": "Apparel Item 28",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 378.79,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 29,
+    "sku": "SKU-FUR-00029",
+    "product_name": "Furniture Item 29",
+    "category": "Furniture",
+    "subcategory": "Desks",
+    "base_price": 1406.74,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 30,
+    "sku": "SKU-ELE-00030",
+    "product_name": "Electronics Item 30",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "base_price": 1216.12,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 31,
+    "sku": "SKU-ELE-00031",
+    "product_name": "Electronics Item 31",
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "base_price": 317.06,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 32,
+    "sku": "SKU-ELE-00032",
+    "product_name": "Electronics Item 32",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "base_price": 900.7,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 33,
+    "sku": "SKU-ELE-00033",
+    "product_name": "Electronics Item 33",
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "base_price": 1113.41,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 34,
+    "sku": "SKU-APP-00034",
+    "product_name": "Appliances Item 34",
+    "category": "Appliances",
+    "subcategory": "Climate",
+    "base_price": 333.73,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 35,
+    "sku": "SKU-ELE-00035",
+    "product_name": "Electronics Item 35",
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "base_price": 760.8,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 36,
+    "sku": "SKU-BOO-00036",
+    "product_name": "Books Item 36",
+    "category": "Books",
+    "subcategory": "Technical",
+    "base_price": 870.44,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 37,
+    "sku": "SKU-FUR-00037",
+    "product_name": "Furniture Item 37",
+    "category": "Furniture",
+    "subcategory": "Desks",
+    "base_price": 459.63,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 38,
+    "sku": "SKU-BOO-00038",
+    "product_name": "Books Item 38",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "base_price": 626.2,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 39,
+    "sku": "SKU-BOO-00039",
+    "product_name": "Books Item 39",
+    "category": "Books",
+    "subcategory": "Business",
+    "base_price": 1320.77,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 40,
+    "sku": "SKU-APP-00040",
+    "product_name": "Apparel Item 40",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "base_price": 748.47,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 41,
+    "sku": "SKU-APP-00041",
+    "product_name": "Apparel Item 41",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "base_price": 484.91,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 42,
+    "sku": "SKU-APP-00042",
+    "product_name": "Appliances Item 42",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 570.93,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 43,
+    "sku": "SKU-APP-00043",
+    "product_name": "Apparel Item 43",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 1275.52,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 44,
+    "sku": "SKU-APP-00044",
+    "product_name": "Appliances Item 44",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 1372.96,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 45,
+    "sku": "SKU-APP-00045",
+    "product_name": "Apparel Item 45",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "base_price": 799.69,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 46,
+    "sku": "SKU-FUR-00046",
+    "product_name": "Furniture Item 46",
+    "category": "Furniture",
+    "subcategory": "Desks",
+    "base_price": 502.09,
+    "is_discontinued": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 47,
+    "sku": "SKU-APP-00047",
+    "product_name": "Apparel Item 47",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 147.77,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 48,
+    "sku": "SKU-APP-00048",
+    "product_name": "Appliances Item 48",
+    "category": "Appliances",
+    "subcategory": "Kitchen",
+    "base_price": 410.01,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 49,
+    "sku": "SKU-BOO-00049",
+    "product_name": "Books Item 49",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "base_price": 1311.69,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 50,
+    "sku": "SKU-BOO-00050",
+    "product_name": "Books Item 50",
+    "category": "Books",
+    "subcategory": "Business",
+    "base_price": 1010.46,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 51,
+    "sku": "SKU-APP-00051",
+    "product_name": "Appliances Item 51",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 461.75,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 52,
+    "sku": "SKU-APP-00052",
+    "product_name": "Appliances Item 52",
+    "category": "Appliances",
+    "subcategory": "Kitchen",
+    "base_price": 1443.5,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 53,
+    "sku": "SKU-APP-00053",
+    "product_name": "Apparel Item 53",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 1046.48,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 54,
+    "sku": "SKU-APP-00054",
+    "product_name": "Apparel Item 54",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 832.6,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 55,
+    "sku": "SKU-APP-00055",
+    "product_name": "Apparel Item 55",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 805.14,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 56,
+    "sku": "SKU-FUR-00056",
+    "product_name": "Furniture Item 56",
+    "category": "Furniture",
+    "subcategory": "Chairs",
+    "base_price": 774.1,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 57,
+    "sku": "SKU-ELE-00057",
+    "product_name": "Electronics Item 57",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "base_price": 1144.83,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 58,
+    "sku": "SKU-APP-00058",
+    "product_name": "Appliances Item 58",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 476.25,
+    "is_discontinued": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 59,
+    "sku": "SKU-APP-00059",
+    "product_name": "Appliances Item 59",
+    "category": "Appliances",
+    "subcategory": "Climate",
+    "base_price": 227.42,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 60,
+    "sku": "SKU-BOO-00060",
+    "product_name": "Books Item 60",
+    "category": "Books",
+    "subcategory": "Business",
+    "base_price": 1082.82,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 61,
+    "sku": "SKU-APP-00061",
+    "product_name": "Appliances Item 61",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 352.73,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 62,
+    "sku": "SKU-APP-00062",
+    "product_name": "Appliances Item 62",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 830.46,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 63,
+    "sku": "SKU-FUR-00063",
+    "product_name": "Furniture Item 63",
+    "category": "Furniture",
+    "subcategory": "Chairs",
+    "base_price": 1147.41,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 64,
+    "sku": "SKU-APP-00064",
+    "product_name": "Apparel Item 64",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 260.67,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 65,
+    "sku": "SKU-APP-00065",
+    "product_name": "Appliances Item 65",
+    "category": "Appliances",
+    "subcategory": "Kitchen",
+    "base_price": 1083.27,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 66,
+    "sku": "SKU-BOO-00066",
+    "product_name": "Books Item 66",
+    "category": "Books",
+    "subcategory": "Business",
+    "base_price": 1436.28,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 67,
+    "sku": "SKU-ELE-00067",
+    "product_name": "Electronics Item 67",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "base_price": 1148.86,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 68,
+    "sku": "SKU-APP-00068",
+    "product_name": "Appliances Item 68",
+    "category": "Appliances",
+    "subcategory": "Kitchen",
+    "base_price": 1063.68,
+    "is_discontinued": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 69,
+    "sku": "SKU-BOO-00069",
+    "product_name": "Books Item 69",
+    "category": "Books",
+    "subcategory": "Technical",
+    "base_price": 566.07,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 70,
+    "sku": "SKU-BOO-00070",
+    "product_name": "Books Item 70",
+    "category": "Books",
+    "subcategory": "Technical",
+    "base_price": 992.33,
+    "is_discontinued": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 71,
+    "sku": "SKU-BOO-00071",
+    "product_name": "Books Item 71",
+    "category": "Books",
+    "subcategory": "Business",
+    "base_price": 622.89,
+    "is_discontinued": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 72,
+    "sku": "SKU-FUR-00072",
+    "product_name": "Furniture Item 72",
+    "category": "Furniture",
+    "subcategory": "Storage",
+    "base_price": 1466.44,
+    "is_discontinued": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 73,
+    "sku": "SKU-APP-00073",
+    "product_name": "Apparel Item 73",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 169.45,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 74,
+    "sku": "SKU-APP-00074",
+    "product_name": "Appliances Item 74",
+    "category": "Appliances",
+    "subcategory": "Kitchen",
+    "base_price": 295.98,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 75,
+    "sku": "SKU-FUR-00075",
+    "product_name": "Furniture Item 75",
+    "category": "Furniture",
+    "subcategory": "Chairs",
+    "base_price": 1194.46,
+    "is_discontinued": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 76,
+    "sku": "SKU-APP-00076",
+    "product_name": "Apparel Item 76",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 851.85,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 77,
+    "sku": "SKU-APP-00077",
+    "product_name": "Appliances Item 77",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 1029.22,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 78,
+    "sku": "SKU-ELE-00078",
+    "product_name": "Electronics Item 78",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "base_price": 613.86,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 79,
+    "sku": "SKU-APP-00079",
+    "product_name": "Apparel Item 79",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 958.75,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 80,
+    "sku": "SKU-ELE-00080",
+    "product_name": "Electronics Item 80",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "base_price": 1269.54,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 81,
+    "sku": "SKU-FUR-00081",
+    "product_name": "Furniture Item 81",
+    "category": "Furniture",
+    "subcategory": "Storage",
+    "base_price": 1466.22,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 82,
+    "sku": "SKU-BOO-00082",
+    "product_name": "Books Item 82",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "base_price": 352.35,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 83,
+    "sku": "SKU-BOO-00083",
+    "product_name": "Books Item 83",
+    "category": "Books",
+    "subcategory": "Technical",
+    "base_price": 413.93,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 84,
+    "sku": "SKU-FUR-00084",
+    "product_name": "Furniture Item 84",
+    "category": "Furniture",
+    "subcategory": "Storage",
+    "base_price": 849.63,
+    "is_discontinued": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 85,
+    "sku": "SKU-FUR-00085",
+    "product_name": "Furniture Item 85",
+    "category": "Furniture",
+    "subcategory": "Desks",
+    "base_price": 1442.59,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 86,
+    "sku": "SKU-APP-00086",
+    "product_name": "Apparel Item 86",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 455.92,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 87,
+    "sku": "SKU-BOO-00087",
+    "product_name": "Books Item 87",
+    "category": "Books",
+    "subcategory": "Technical",
+    "base_price": 1018.78,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 88,
+    "sku": "SKU-APP-00088",
+    "product_name": "Apparel Item 88",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "base_price": 218.53,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 89,
+    "sku": "SKU-ELE-00089",
+    "product_name": "Electronics Item 89",
+    "category": "Electronics",
+    "subcategory": "Audio",
+    "base_price": 90.01,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 90,
+    "sku": "SKU-ELE-00090",
+    "product_name": "Electronics Item 90",
+    "category": "Electronics",
+    "subcategory": "Audio",
+    "base_price": 911.7,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 91,
+    "sku": "SKU-BOO-00091",
+    "product_name": "Books Item 91",
+    "category": "Books",
+    "subcategory": "Technical",
+    "base_price": 1453.69,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 92,
+    "sku": "SKU-FUR-00092",
+    "product_name": "Furniture Item 92",
+    "category": "Furniture",
+    "subcategory": "Chairs",
+    "base_price": 741.0,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 93,
+    "sku": "SKU-APP-00093",
+    "product_name": "Apparel Item 93",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 286.75,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 94,
+    "sku": "SKU-APP-00094",
+    "product_name": "Apparel Item 94",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 1160.53,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 95,
+    "sku": "SKU-APP-00095",
+    "product_name": "Appliances Item 95",
+    "category": "Appliances",
+    "subcategory": "Climate",
+    "base_price": 119.52,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 96,
+    "sku": "SKU-APP-00096",
+    "product_name": "Apparel Item 96",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "base_price": 1178.0,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 97,
+    "sku": "SKU-APP-00097",
+    "product_name": "Apparel Item 97",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 547.44,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 98,
+    "sku": "SKU-FUR-00098",
+    "product_name": "Furniture Item 98",
+    "category": "Furniture",
+    "subcategory": "Chairs",
+    "base_price": 546.28,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 99,
+    "sku": "SKU-APP-00099",
+    "product_name": "Appliances Item 99",
+    "category": "Appliances",
+    "subcategory": "Kitchen",
+    "base_price": 289.21,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 100,
+    "sku": "SKU-BOO-00100",
+    "product_name": "Books Item 100",
+    "category": "Books",
+    "subcategory": "Business",
+    "base_price": 617.99,
+    "is_discontinued": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 101,
+    "sku": "SKU-FUR-00101",
+    "product_name": "Furniture Item 101",
+    "category": "Furniture",
+    "subcategory": "Storage",
+    "base_price": 148.67,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 102,
+    "sku": "SKU-FUR-00102",
+    "product_name": "Furniture Item 102",
+    "category": "Furniture",
+    "subcategory": "Chairs",
+    "base_price": 28.39,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 103,
+    "sku": "SKU-ELE-00103",
+    "product_name": "Electronics Item 103",
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "base_price": 862.22,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 104,
+    "sku": "SKU-APP-00104",
+    "product_name": "Apparel Item 104",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 216.87,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 105,
+    "sku": "SKU-APP-00105",
+    "product_name": "Apparel Item 105",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 104.27,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 106,
+    "sku": "SKU-APP-00106",
+    "product_name": "Apparel Item 106",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 731.5,
+    "is_discontinued": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 107,
+    "sku": "SKU-FUR-00107",
+    "product_name": "Furniture Item 107",
+    "category": "Furniture",
+    "subcategory": "Desks",
+    "base_price": 1084.14,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 108,
+    "sku": "SKU-BOO-00108",
+    "product_name": "Books Item 108",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "base_price": 692.21,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 109,
+    "sku": "SKU-ELE-00109",
+    "product_name": "Electronics Item 109",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "base_price": 505.0,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 110,
+    "sku": "SKU-FUR-00110",
+    "product_name": "Furniture Item 110",
+    "category": "Furniture",
+    "subcategory": "Chairs",
+    "base_price": 508.76,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 111,
+    "sku": "SKU-BOO-00111",
+    "product_name": "Books Item 111",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "base_price": 457.65,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 112,
+    "sku": "SKU-APP-00112",
+    "product_name": "Appliances Item 112",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 478.13,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 113,
+    "sku": "SKU-FUR-00113",
+    "product_name": "Furniture Item 113",
+    "category": "Furniture",
+    "subcategory": "Chairs",
+    "base_price": 1104.96,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 114,
+    "sku": "SKU-BOO-00114",
+    "product_name": "Books Item 114",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "base_price": 495.57,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 115,
+    "sku": "SKU-APP-00115",
+    "product_name": "Apparel Item 115",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 179.69,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 116,
+    "sku": "SKU-BOO-00116",
+    "product_name": "Books Item 116",
+    "category": "Books",
+    "subcategory": "Business",
+    "base_price": 278.09,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 117,
+    "sku": "SKU-ELE-00117",
+    "product_name": "Electronics Item 117",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "base_price": 1415.03,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 118,
+    "sku": "SKU-FUR-00118",
+    "product_name": "Furniture Item 118",
+    "category": "Furniture",
+    "subcategory": "Storage",
+    "base_price": 113.05,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 119,
+    "sku": "SKU-APP-00119",
+    "product_name": "Apparel Item 119",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "base_price": 753.96,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 120,
+    "sku": "SKU-APP-00120",
+    "product_name": "Appliances Item 120",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 991.41,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 121,
+    "sku": "SKU-APP-00121",
+    "product_name": "Apparel Item 121",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 679.11,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 122,
+    "sku": "SKU-BOO-00122",
+    "product_name": "Books Item 122",
+    "category": "Books",
+    "subcategory": "Technical",
+    "base_price": 806.21,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 123,
+    "sku": "SKU-APP-00123",
+    "product_name": "Apparel Item 123",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "base_price": 64.78,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 124,
+    "sku": "SKU-BOO-00124",
+    "product_name": "Books Item 124",
+    "category": "Books",
+    "subcategory": "Business",
+    "base_price": 960.89,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 125,
+    "sku": "SKU-APP-00125",
+    "product_name": "Appliances Item 125",
+    "category": "Appliances",
+    "subcategory": "Climate",
+    "base_price": 1000.39,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 126,
+    "sku": "SKU-BOO-00126",
+    "product_name": "Books Item 126",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "base_price": 849.2,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 127,
+    "sku": "SKU-APP-00127",
+    "product_name": "Apparel Item 127",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 1448.92,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 128,
+    "sku": "SKU-ELE-00128",
+    "product_name": "Electronics Item 128",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "base_price": 395.52,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 129,
+    "sku": "SKU-BOO-00129",
+    "product_name": "Books Item 129",
+    "category": "Books",
+    "subcategory": "Business",
+    "base_price": 874.97,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 130,
+    "sku": "SKU-APP-00130",
+    "product_name": "Apparel Item 130",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 592.79,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 131,
+    "sku": "SKU-BOO-00131",
+    "product_name": "Books Item 131",
+    "category": "Books",
+    "subcategory": "Business",
+    "base_price": 755.69,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 132,
+    "sku": "SKU-ELE-00132",
+    "product_name": "Electronics Item 132",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "base_price": 165.78,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 133,
+    "sku": "SKU-ELE-00133",
+    "product_name": "Electronics Item 133",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "base_price": 1248.66,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 134,
+    "sku": "SKU-FUR-00134",
+    "product_name": "Furniture Item 134",
+    "category": "Furniture",
+    "subcategory": "Chairs",
+    "base_price": 521.17,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 135,
+    "sku": "SKU-BOO-00135",
+    "product_name": "Books Item 135",
+    "category": "Books",
+    "subcategory": "Technical",
+    "base_price": 528.97,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 136,
+    "sku": "SKU-APP-00136",
+    "product_name": "Apparel Item 136",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 110.09,
+    "is_discontinued": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 137,
+    "sku": "SKU-ELE-00137",
+    "product_name": "Electronics Item 137",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "base_price": 1275.28,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 138,
+    "sku": "SKU-APP-00138",
+    "product_name": "Appliances Item 138",
+    "category": "Appliances",
+    "subcategory": "Climate",
+    "base_price": 373.43,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 139,
+    "sku": "SKU-APP-00139",
+    "product_name": "Appliances Item 139",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 844.17,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 140,
+    "sku": "SKU-APP-00140",
+    "product_name": "Appliances Item 140",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 948.34,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 141,
+    "sku": "SKU-APP-00141",
+    "product_name": "Apparel Item 141",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 53.5,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 142,
+    "sku": "SKU-APP-00142",
+    "product_name": "Appliances Item 142",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 892.38,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 143,
+    "sku": "SKU-APP-00143",
+    "product_name": "Appliances Item 143",
+    "category": "Appliances",
+    "subcategory": "Kitchen",
+    "base_price": 424.73,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 144,
+    "sku": "SKU-ELE-00144",
+    "product_name": "Electronics Item 144",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "base_price": 1201.26,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 145,
+    "sku": "SKU-FUR-00145",
+    "product_name": "Furniture Item 145",
+    "category": "Furniture",
+    "subcategory": "Chairs",
+    "base_price": 303.64,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 146,
+    "sku": "SKU-APP-00146",
+    "product_name": "Apparel Item 146",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "base_price": 1449.22,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 147,
+    "sku": "SKU-APP-00147",
+    "product_name": "Apparel Item 147",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "base_price": 594.89,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 148,
+    "sku": "SKU-FUR-00148",
+    "product_name": "Furniture Item 148",
+    "category": "Furniture",
+    "subcategory": "Chairs",
+    "base_price": 929.87,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 149,
+    "sku": "SKU-FUR-00149",
+    "product_name": "Furniture Item 149",
+    "category": "Furniture",
+    "subcategory": "Storage",
+    "base_price": 889.35,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 150,
+    "sku": "SKU-FUR-00150",
+    "product_name": "Furniture Item 150",
+    "category": "Furniture",
+    "subcategory": "Desks",
+    "base_price": 365.47,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 151,
+    "sku": "SKU-FUR-00151",
+    "product_name": "Furniture Item 151",
+    "category": "Furniture",
+    "subcategory": "Storage",
+    "base_price": 220.62,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 152,
+    "sku": "SKU-BOO-00152",
+    "product_name": "Books Item 152",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "base_price": 866.46,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 153,
+    "sku": "SKU-APP-00153",
+    "product_name": "Apparel Item 153",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "base_price": 810.7,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 154,
+    "sku": "SKU-APP-00154",
+    "product_name": "Appliances Item 154",
+    "category": "Appliances",
+    "subcategory": "Climate",
+    "base_price": 258.63,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 155,
+    "sku": "SKU-APP-00155",
+    "product_name": "Appliances Item 155",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 1264.56,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 156,
+    "sku": "SKU-FUR-00156",
+    "product_name": "Furniture Item 156",
+    "category": "Furniture",
+    "subcategory": "Desks",
+    "base_price": 732.07,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 157,
+    "sku": "SKU-APP-00157",
+    "product_name": "Apparel Item 157",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "base_price": 763.1,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 158,
+    "sku": "SKU-APP-00158",
+    "product_name": "Apparel Item 158",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 1068.11,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 159,
+    "sku": "SKU-APP-00159",
+    "product_name": "Appliances Item 159",
+    "category": "Appliances",
+    "subcategory": "Kitchen",
+    "base_price": 852.44,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 160,
+    "sku": "SKU-APP-00160",
+    "product_name": "Appliances Item 160",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 58.72,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 161,
+    "sku": "SKU-FUR-00161",
+    "product_name": "Furniture Item 161",
+    "category": "Furniture",
+    "subcategory": "Desks",
+    "base_price": 1173.3,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 162,
+    "sku": "SKU-APP-00162",
+    "product_name": "Apparel Item 162",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "base_price": 771.1,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 163,
+    "sku": "SKU-FUR-00163",
+    "product_name": "Furniture Item 163",
+    "category": "Furniture",
+    "subcategory": "Storage",
+    "base_price": 1236.69,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 164,
+    "sku": "SKU-ELE-00164",
+    "product_name": "Electronics Item 164",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "base_price": 824.07,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 165,
+    "sku": "SKU-ELE-00165",
+    "product_name": "Electronics Item 165",
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "base_price": 453.59,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 166,
+    "sku": "SKU-APP-00166",
+    "product_name": "Apparel Item 166",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 529.38,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 167,
+    "sku": "SKU-APP-00167",
+    "product_name": "Apparel Item 167",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 1165.69,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 168,
+    "sku": "SKU-BOO-00168",
+    "product_name": "Books Item 168",
+    "category": "Books",
+    "subcategory": "Business",
+    "base_price": 532.44,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 169,
+    "sku": "SKU-APP-00169",
+    "product_name": "Apparel Item 169",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 928.07,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 170,
+    "sku": "SKU-APP-00170",
+    "product_name": "Appliances Item 170",
+    "category": "Appliances",
+    "subcategory": "Kitchen",
+    "base_price": 859.41,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 171,
+    "sku": "SKU-BOO-00171",
+    "product_name": "Books Item 171",
+    "category": "Books",
+    "subcategory": "Business",
+    "base_price": 260.88,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 172,
+    "sku": "SKU-FUR-00172",
+    "product_name": "Furniture Item 172",
+    "category": "Furniture",
+    "subcategory": "Chairs",
+    "base_price": 863.38,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 173,
+    "sku": "SKU-BOO-00173",
+    "product_name": "Books Item 173",
+    "category": "Books",
+    "subcategory": "Business",
+    "base_price": 1224.62,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 174,
+    "sku": "SKU-APP-00174",
+    "product_name": "Apparel Item 174",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 1488.8,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 175,
+    "sku": "SKU-APP-00175",
+    "product_name": "Appliances Item 175",
+    "category": "Appliances",
+    "subcategory": "Climate",
+    "base_price": 1300.46,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 176,
+    "sku": "SKU-FUR-00176",
+    "product_name": "Furniture Item 176",
+    "category": "Furniture",
+    "subcategory": "Desks",
+    "base_price": 1144.6,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 177,
+    "sku": "SKU-APP-00177",
+    "product_name": "Apparel Item 177",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 870.36,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 178,
+    "sku": "SKU-APP-00178",
+    "product_name": "Apparel Item 178",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 683.47,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 179,
+    "sku": "SKU-ELE-00179",
+    "product_name": "Electronics Item 179",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "base_price": 778.26,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 180,
+    "sku": "SKU-FUR-00180",
+    "product_name": "Furniture Item 180",
+    "category": "Furniture",
+    "subcategory": "Chairs",
+    "base_price": 1425.88,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 181,
+    "sku": "SKU-ELE-00181",
+    "product_name": "Electronics Item 181",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "base_price": 1099.09,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 182,
+    "sku": "SKU-FUR-00182",
+    "product_name": "Furniture Item 182",
+    "category": "Furniture",
+    "subcategory": "Desks",
+    "base_price": 1195.56,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 183,
+    "sku": "SKU-APP-00183",
+    "product_name": "Apparel Item 183",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 747.13,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 184,
+    "sku": "SKU-FUR-00184",
+    "product_name": "Furniture Item 184",
+    "category": "Furniture",
+    "subcategory": "Chairs",
+    "base_price": 825.49,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 185,
+    "sku": "SKU-APP-00185",
+    "product_name": "Apparel Item 185",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 1342.29,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 186,
+    "sku": "SKU-ELE-00186",
+    "product_name": "Electronics Item 186",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "base_price": 943.01,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 187,
+    "sku": "SKU-ELE-00187",
+    "product_name": "Electronics Item 187",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "base_price": 1394.85,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 188,
+    "sku": "SKU-APP-00188",
+    "product_name": "Apparel Item 188",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 1487.84,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 189,
+    "sku": "SKU-APP-00189",
+    "product_name": "Appliances Item 189",
+    "category": "Appliances",
+    "subcategory": "Climate",
+    "base_price": 459.78,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 190,
+    "sku": "SKU-FUR-00190",
+    "product_name": "Furniture Item 190",
+    "category": "Furniture",
+    "subcategory": "Desks",
+    "base_price": 985.34,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 191,
+    "sku": "SKU-FUR-00191",
+    "product_name": "Furniture Item 191",
+    "category": "Furniture",
+    "subcategory": "Storage",
+    "base_price": 1356.66,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 192,
+    "sku": "SKU-APP-00192",
+    "product_name": "Apparel Item 192",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "base_price": 465.21,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 193,
+    "sku": "SKU-APP-00193",
+    "product_name": "Appliances Item 193",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 986.67,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 194,
+    "sku": "SKU-ELE-00194",
+    "product_name": "Electronics Item 194",
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "base_price": 720.44,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 195,
+    "sku": "SKU-APP-00195",
+    "product_name": "Appliances Item 195",
+    "category": "Appliances",
+    "subcategory": "Climate",
+    "base_price": 1023.17,
+    "is_discontinued": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 196,
+    "sku": "SKU-FUR-00196",
+    "product_name": "Furniture Item 196",
+    "category": "Furniture",
+    "subcategory": "Desks",
+    "base_price": 1482.35,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 197,
+    "sku": "SKU-APP-00197",
+    "product_name": "Appliances Item 197",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 115.53,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 198,
+    "sku": "SKU-ELE-00198",
+    "product_name": "Electronics Item 198",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "base_price": 476.89,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 199,
+    "sku": "SKU-APP-00199",
+    "product_name": "Appliances Item 199",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 1162.46,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 200,
+    "sku": "SKU-APP-00200",
+    "product_name": "Appliances Item 200",
+    "category": "Appliances",
+    "subcategory": "Climate",
+    "base_price": 1489.48,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 201,
+    "sku": "SKU-BOO-00201",
+    "product_name": "Books Item 201",
+    "category": "Books",
+    "subcategory": "Business",
+    "base_price": 22.63,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 202,
+    "sku": "SKU-APP-00202",
+    "product_name": "Apparel Item 202",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 1086.42,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 203,
+    "sku": "SKU-APP-00203",
+    "product_name": "Appliances Item 203",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 927.95,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 204,
+    "sku": "SKU-APP-00204",
+    "product_name": "Appliances Item 204",
+    "category": "Appliances",
+    "subcategory": "Kitchen",
+    "base_price": 1345.92,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 205,
+    "sku": "SKU-ELE-00205",
+    "product_name": "Electronics Item 205",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "base_price": 533.79,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 206,
+    "sku": "SKU-APP-00206",
+    "product_name": "Appliances Item 206",
+    "category": "Appliances",
+    "subcategory": "Kitchen",
+    "base_price": 422.68,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 207,
+    "sku": "SKU-BOO-00207",
+    "product_name": "Books Item 207",
+    "category": "Books",
+    "subcategory": "Business",
+    "base_price": 904.01,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 208,
+    "sku": "SKU-ELE-00208",
+    "product_name": "Electronics Item 208",
+    "category": "Electronics",
+    "subcategory": "Audio",
+    "base_price": 316.11,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 209,
+    "sku": "SKU-APP-00209",
+    "product_name": "Appliances Item 209",
+    "category": "Appliances",
+    "subcategory": "Climate",
+    "base_price": 593.71,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 210,
+    "sku": "SKU-APP-00210",
+    "product_name": "Appliances Item 210",
+    "category": "Appliances",
+    "subcategory": "Cleaning",
+    "base_price": 584.97,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 211,
+    "sku": "SKU-BOO-00211",
+    "product_name": "Books Item 211",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "base_price": 797.15,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 212,
+    "sku": "SKU-FUR-00212",
+    "product_name": "Furniture Item 212",
+    "category": "Furniture",
+    "subcategory": "Chairs",
+    "base_price": 206.65,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 213,
+    "sku": "SKU-BOO-00213",
+    "product_name": "Books Item 213",
+    "category": "Books",
+    "subcategory": "Technical",
+    "base_price": 554.46,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 214,
+    "sku": "SKU-APP-00214",
+    "product_name": "Apparel Item 214",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 34.87,
+    "is_discontinued": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 215,
+    "sku": "SKU-FUR-00215",
+    "product_name": "Furniture Item 215",
+    "category": "Furniture",
+    "subcategory": "Desks",
+    "base_price": 69.34,
+    "is_discontinued": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 216,
+    "sku": "SKU-APP-00216",
+    "product_name": "Apparel Item 216",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "base_price": 436.87,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 217,
+    "sku": "SKU-APP-00217",
+    "product_name": "Apparel Item 217",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 1055.7,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 218,
+    "sku": "SKU-BOO-00218",
+    "product_name": "Books Item 218",
+    "category": "Books",
+    "subcategory": "Business",
+    "base_price": 927.91,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 219,
+    "sku": "SKU-FUR-00219",
+    "product_name": "Furniture Item 219",
+    "category": "Furniture",
+    "subcategory": "Desks",
+    "base_price": 771.84,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 220,
+    "sku": "SKU-APP-00220",
+    "product_name": "Appliances Item 220",
+    "category": "Appliances",
+    "subcategory": "Climate",
+    "base_price": 496.86,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 221,
+    "sku": "SKU-ELE-00221",
+    "product_name": "Electronics Item 221",
+    "category": "Electronics",
+    "subcategory": "Audio",
+    "base_price": 1051.03,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 222,
+    "sku": "SKU-APP-00222",
+    "product_name": "Appliances Item 222",
+    "category": "Appliances",
+    "subcategory": "Kitchen",
+    "base_price": 374.27,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 223,
+    "sku": "SKU-ELE-00223",
+    "product_name": "Electronics Item 223",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "base_price": 922.32,
+    "is_discontinued": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 224,
+    "sku": "SKU-APP-00224",
+    "product_name": "Appliances Item 224",
+    "category": "Appliances",
+    "subcategory": "Kitchen",
+    "base_price": 28.87,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 225,
+    "sku": "SKU-ELE-00225",
+    "product_name": "Electronics Item 225",
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "base_price": 749.66,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 226,
+    "sku": "SKU-BOO-00226",
+    "product_name": "Books Item 226",
+    "category": "Books",
+    "subcategory": "Business",
+    "base_price": 396.28,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 227,
+    "sku": "SKU-FUR-00227",
+    "product_name": "Furniture Item 227",
+    "category": "Furniture",
+    "subcategory": "Storage",
+    "base_price": 1330.76,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 228,
+    "sku": "SKU-ELE-00228",
+    "product_name": "Electronics Item 228",
+    "category": "Electronics",
+    "subcategory": "Audio",
+    "base_price": 1212.59,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 229,
+    "sku": "SKU-ELE-00229",
+    "product_name": "Electronics Item 229",
+    "category": "Electronics",
+    "subcategory": "Audio",
+    "base_price": 1071.36,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 230,
+    "sku": "SKU-ELE-00230",
+    "product_name": "Electronics Item 230",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "base_price": 688.24,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 231,
+    "sku": "SKU-APP-00231",
+    "product_name": "Apparel Item 231",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "base_price": 258.65,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 232,
+    "sku": "SKU-ELE-00232",
+    "product_name": "Electronics Item 232",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "base_price": 350.32,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 233,
+    "sku": "SKU-ELE-00233",
+    "product_name": "Electronics Item 233",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "base_price": 374.38,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 234,
+    "sku": "SKU-APP-00234",
+    "product_name": "Apparel Item 234",
+    "category": "Apparel",
+    "subcategory": "Men",
+    "base_price": 276.65,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 235,
+    "sku": "SKU-ELE-00235",
+    "product_name": "Electronics Item 235",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "base_price": 344.53,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 236,
+    "sku": "SKU-FUR-00236",
+    "product_name": "Furniture Item 236",
+    "category": "Furniture",
+    "subcategory": "Chairs",
+    "base_price": 1240.74,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 237,
+    "sku": "SKU-ELE-00237",
+    "product_name": "Electronics Item 237",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "base_price": 277.22,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 238,
+    "sku": "SKU-ELE-00238",
+    "product_name": "Electronics Item 238",
+    "category": "Electronics",
+    "subcategory": "Accessories",
+    "base_price": 112.7,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 239,
+    "sku": "SKU-FUR-00239",
+    "product_name": "Furniture Item 239",
+    "category": "Furniture",
+    "subcategory": "Chairs",
+    "base_price": 497.68,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 240,
+    "sku": "SKU-ELE-00240",
+    "product_name": "Electronics Item 240",
+    "category": "Electronics",
+    "subcategory": "Audio",
+    "base_price": 309.0,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 241,
+    "sku": "SKU-FUR-00241",
+    "product_name": "Furniture Item 241",
+    "category": "Furniture",
+    "subcategory": "Storage",
+    "base_price": 937.85,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 242,
+    "sku": "SKU-BOO-00242",
+    "product_name": "Books Item 242",
+    "category": "Books",
+    "subcategory": "Technical",
+    "base_price": 1496.7,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 243,
+    "sku": "SKU-BOO-00243",
+    "product_name": "Books Item 243",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "base_price": 234.34,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 244,
+    "sku": "SKU-ELE-00244",
+    "product_name": "Electronics Item 244",
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "base_price": 816.9,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 245,
+    "sku": "SKU-ELE-00245",
+    "product_name": "Electronics Item 245",
+    "category": "Electronics",
+    "subcategory": "Audio",
+    "base_price": 12.18,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 246,
+    "sku": "SKU-FUR-00246",
+    "product_name": "Furniture Item 246",
+    "category": "Furniture",
+    "subcategory": "Desks",
+    "base_price": 315.74,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 247,
+    "sku": "SKU-APP-00247",
+    "product_name": "Apparel Item 247",
+    "category": "Apparel",
+    "subcategory": "Women",
+    "base_price": 1442.17,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 248,
+    "sku": "SKU-APP-00248",
+    "product_name": "Appliances Item 248",
+    "category": "Appliances",
+    "subcategory": "Climate",
+    "base_price": 426.94,
+    "is_discontinued": 0,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 249,
+    "sku": "SKU-APP-00249",
+    "product_name": "Appliances Item 249",
+    "category": "Appliances",
+    "subcategory": "Climate",
+    "base_price": 625.45,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "product_id": 250,
+    "sku": "SKU-APP-00250",
+    "product_name": "Apparel Item 250",
+    "category": "Apparel",
+    "subcategory": "Footwear",
+    "base_price": 136.5,
+    "is_discontinued": 1,
+    "updated_at": "2025-01-01T00:00:00Z"
+  }
+]

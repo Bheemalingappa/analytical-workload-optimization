@@ -1,0 +1,5 @@
+# Core Requirements for Analytical Workload Optimization Solution
+# Python >= 3.10
+pandas>=2.0.0
+pydantic>=2.0.0
+pytest>=7.0.0
