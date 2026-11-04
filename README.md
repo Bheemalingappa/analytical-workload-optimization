@@ -1,4 +1,4 @@
-# Analytical Workload Optimization & Data Engineering Pipeline
+﻿# Analytical Workload Optimization & Data Engineering Pipeline
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![Tests](https://img.shields.io/badge/tests-24%20passed-brightgreen.svg)]()
@@ -148,27 +148,47 @@ The pipeline was benchmarked at three scales using the reproducible seed `seed=4
 
 | Scale | Metric | Baseline | Optimized | Speedup / Reduction |
 |:---:|:---|:---:|:---:|:---:|
-| **2,000 Orders**<br/>(5,031 items) | Ingestion Duration | 0.27s | 0.24s | ~1.1x |
+| **2,000 Orders** (5,031 items) | Ingestion Duration | 0.27s | 0.24s | ~1.1x |
 | | Workload 1: Scan | 0.48 ms | 0.22 ms | **2.18x (54.2%)** |
 | | Workload 2: Join | 1.59 ms | 1.03 ms | **1.54x (35.1%)** |
 | | Workload 3: Aggregation | 4.76 ms | 0.79 ms | **6.00x (83.3%)** |
 | | Workload 4: Filtering | 1.20 ms | 0.34 ms | **3.51x (71.5%)** |
-| **25,000 Orders**<br/>(62,250 items) | Ingestion Duration | 2.49s | 3.17s | Write overhead: ~27% |
+| **25,000 Orders** (62,250 items) | Ingestion Duration | 2.49s | 3.17s | Write overhead: ~27% |
 | | Workload 1: Scan | 4.23 ms | 1.51 ms | **2.80x (64.3%)** |
 | | Workload 2: Join | 1.73 ms | 1.13 ms | **1.53x (34.7%)** |
 | | Workload 3: Aggregation | 65.91 ms | 8.49 ms | **7.77x (87.1%)** |
 | | Workload 4: Filtering | 12.39 ms | 3.88 ms | **3.19x (68.7%)** |
-| **100,000 Orders**<br/>(249,808 items) | Ingestion Duration | 10.25s | 13.49s | Write overhead: ~31.6% |
+| **100,000 Orders** (249,808 items) | Ingestion Duration | 10.25s | 13.49s | Write overhead: ~31.6% |
 | | Workload 1: Scan | 14.35 ms | 4.42 ms | **3.24x (69.2%)** |
 | | Workload 2: Join | 2.30 ms | 0.87 ms | **2.63x (61.9%)** |
 | | Workload 3: Aggregation | 272.62 ms | 29.88 ms | **9.12x (89.0%)** |
 | | Workload 4: Filtering | 46.77 ms | 12.18 ms | **3.84x (74.0%)** |
+
 
 > **Engineering Trade-off - Ingestion Throughput vs. Read Latency**
 >
 > Creating and maintaining secondary indexes adds write overhead during ingestion. In the 100,000-order benchmark, optimized ingestion took 13.49 seconds compared with 10.25 seconds for the baseline.
 >
 > This illustrates a common analytical engineering trade-off: additional ingestion cost can be worthwhile when analytical queries are executed frequently. The recorded benchmark shows up to 9.12x faster execution for the aggregation workload.
+=======
+### Benchmark Methodology
+
+- **Dataset:** Synthetic e-commerce data generated using a fixed seed (`seed=42`).
+- **Scale:** 2,000, 25,000, and 100,000 orders.
+- **Database:** SQLite.
+- **Comparison:** Baseline and optimized database workloads.
+- **Execution Plans:** SQLite `EXPLAIN QUERY PLAN` was used to inspect scans and index usage.
+- **Measurements:** Query execution latency and ingestion duration.
+- **Reproducibility:** Run `python run_demo.py` to execute the demo and generate benchmark output.
+
+Benchmark timings are environment-dependent and should be interpreted as measurements from the recorded runs, not guaranteed performance results.
+
+### Engineering Trade-off - Ingestion Throughput vs. Read Latency
+
+Creating and maintaining secondary indexes adds write overhead during ingestion. In the 100,000-order benchmark, optimized ingestion took 13.49 seconds compared with 10.25 seconds for the baseline.
+
+This illustrates a common analytical engineering trade-off: additional ingestion cost can be worthwhile when analytical queries are executed frequently. The recorded benchmark shows up to 9.12x faster execution for the aggregation workload.
+>>>>>>> 8a036e8 (docs: finalize README formatting and methodology)
 
 ### Benchmark Methodology
 
@@ -404,7 +424,5 @@ AI assistance supported parts of the development process, including implementati
 
 See the following files for further information:
 
-- [AI_DISCLOSURE.md](AI_DISCLOSURE.md) - AI usage and human review.
-- [PROMPT_HISTORY.md](PROMPT_HISTORY.md) - Available AI prompt history and documented limitations.
+See [PROMPT_HISTORY.md](PROMPT_HISTORY.md) for the available prompt-history record and its documented limitations.
 
-Historical prompt coverage is not represented as complete where exact prompt records have not been retrieved. The prompt-history document distinguishes available exact prompts from topic summaries and outstanding retrieval limitations.
