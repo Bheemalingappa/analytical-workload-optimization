@@ -1,4 +1,4 @@
-# Analytical Workload Optimization & Data Engineering Pipeline
+﻿# Analytical Workload Optimization & Data Engineering Pipeline
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![Tests](https://img.shields.io/badge/tests-24%20passed-brightgreen.svg)]()
@@ -159,16 +159,16 @@ The pipeline was benchmarked at three scales using the reproducible seed `seed=4
 | | Workload 3: Aggregation | 65.91 ms | 8.49 ms | **7.77x (87.1%)** |
 | | Workload 4: Filtering | 12.39 ms | 3.88 ms | **3.19x (68.7%)** |
 | **100,000 Orders**<br/>(249,808 items) | Ingestion Duration | 10.25s | 13.49s | Write overhead: ~31.6% |
-| | Workload 1: Scan | 16.09 ms | 4.87 ms | **3.31x (69.8%)** |
-| | Workload 2: Join | 2.41 ms | 1.41 ms | **1.71x (41.6%)** |
-| | Workload 3: Aggregation | 297.87 ms | 30.27 ms | **9.84x (89.8%)** |
-| | Workload 4: Filtering | 48.12 ms | 11.88 ms | **4.05x (75.3%)** |
+| | Workload 1: Scan | 14.35 ms | 4.42 ms | **3.24x (69.2%)** |
+| | Workload 2: Join | 2.30 ms | 0.87 ms | **2.63x (61.9%)** |
+| | Workload 3: Aggregation | 272.62 ms | 29.88 ms | **9.12x (89.0%)** |
+| | Workload 4: Filtering | 46.77 ms | 12.18 ms | **3.84x (74.0%)** |
 
-> **Engineering Trade-off — Ingestion Throughput vs. Read Latency**
+> **Engineering Trade-off â€” Ingestion Throughput vs. Read Latency**
 >
 > Creating and maintaining secondary indexes adds write overhead during ingestion. In the 100,000-order benchmark, optimized ingestion took 13.49 seconds compared with 10.25 seconds for the baseline.
 >
-> This illustrates a common analytical engineering trade-off: additional ingestion cost can be worthwhile when analytical queries are executed frequently. The recorded benchmark shows up to 9.84x faster execution for the aggregation workload.
+> This illustrates a common analytical engineering trade-off: additional ingestion cost can be worthwhile when analytical queries are executed frequently. The recorded benchmark shows up to 9.12x faster execution for the aggregation workload.
 
 ### Plan Comparison Highlights
 
@@ -260,44 +260,44 @@ These results demonstrate exact row accounting and matching published revenue fo
 
 ```text
 analytical-workload-optimization/
-│
-├── README.md
-├── AI_DISCLOSURE.md
-├── DATA_DICTIONARY.md
-├── DESIGN_AND_TRADEOFFS.md
-├── LICENSE
-├── PROMPT_HISTORY.md
-├── requirements.txt
-├── pyproject.toml
-├── run_demo.py
-│
-├── src/
-│   ├── __init__.py
-│   ├── config.py
-│   ├── generator.py
-│   ├── logger.py
-│   ├── models.py
-│   ├── optimizer.py
-│   ├── pipeline.py
-│   ├── reconciliation.py
-│   └── validator.py
-│
-├── tests/
-│   ├── __init__.py
-│   ├── test_generator.py
-│   ├── test_idempotency.py
-│   ├── test_optimizer.py
-│   ├── test_pipeline.py
-│   ├── test_reconciliation.py
-│   └── test_validator.py
-│
-└── data/
-    ├── sample/
-    │   └── Generated sample input datasets
-    │
-    └── output/
-        ├── benchmark_report.md
-        └── reconciliation_report.md
+â”‚
+â”œâ”€â”€ README.md
+â”œâ”€â”€ AI_DISCLOSURE.md
+â”œâ”€â”€ DATA_DICTIONARY.md
+â”œâ”€â”€ DESIGN_AND_TRADEOFFS.md
+â”œâ”€â”€ LICENSE
+â”œâ”€â”€ PROMPT_HISTORY.md
+â”œâ”€â”€ requirements.txt
+â”œâ”€â”€ pyproject.toml
+â”œâ”€â”€ run_demo.py
+â”‚
+â”œâ”€â”€ src/
+â”‚   â”œâ”€â”€ __init__.py
+â”‚   â”œâ”€â”€ config.py
+â”‚   â”œâ”€â”€ generator.py
+â”‚   â”œâ”€â”€ logger.py
+â”‚   â”œâ”€â”€ models.py
+â”‚   â”œâ”€â”€ optimizer.py
+â”‚   â”œâ”€â”€ pipeline.py
+â”‚   â”œâ”€â”€ reconciliation.py
+â”‚   â””â”€â”€ validator.py
+â”‚
+â”œâ”€â”€ tests/
+â”‚   â”œâ”€â”€ __init__.py
+â”‚   â”œâ”€â”€ test_generator.py
+â”‚   â”œâ”€â”€ test_idempotency.py
+â”‚   â”œâ”€â”€ test_optimizer.py
+â”‚   â”œâ”€â”€ test_pipeline.py
+â”‚   â”œâ”€â”€ test_reconciliation.py
+â”‚   â””â”€â”€ test_validator.py
+â”‚
+â””â”€â”€ data/
+    â”œâ”€â”€ sample/
+    â”‚   â””â”€â”€ Generated sample input datasets
+    â”‚
+    â””â”€â”€ output/
+        â”œâ”€â”€ benchmark_report.md
+        â””â”€â”€ reconciliation_report.md
 ```
 
 Runtime logs are generated locally and are not required to be committed to the repository.
@@ -364,3 +364,4 @@ This project was developed with AI assistance using ChatGPT (OpenAI) and Google 
 AI assistance supported parts of the development process, including implementation guidance, debugging, testing, and documentation. The candidate reviewed, tested, and validated the resulting project and is responsible for understanding its implementation, design decisions, dependencies, and limitations.
 
 See [AI_DISCLOSURE.md](AI_DISCLOSURE.md) for further details about AI usage and human review.
+

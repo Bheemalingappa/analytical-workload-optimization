@@ -1,4 +1,4 @@
-# AI Prompt History
+﻿# AI Prompt History
 
 
 
@@ -72,57 +72,4 @@ The original prompt history still needs to be retrieved from the Antigravity con
 
 
 
-\## Actual Prompt — YottaFlex Assignment Brief
-
-
-
-\*\*AI Tool:\*\* Google Antigravity  
-
-\*\*Status:\*\* Confirmed as submitted by the candidate  
-
-\*\*Prompt Type:\*\* Original assignment brief
-
-
-
-\### Prompt Content
-
-
-
-The complete YottaFlex assignment brief was provided to Google Antigravity, including:
-
-
-
-1\. Business Context / Problem
-
-2\. Objective and Scope
-
-3\. Primary Actors / Systems
-
-4\. Business Workflow and Rules
-
-5\. Entities and Relationships
-
-6\. ID / Nomenclature Conventions
-
-7\. Implementation Instructions (Steps 1–10)
-
-8\. Suggested Volume and Coverage
-
-9\. Required Edge Cases / Negative Scenarios
-
-10\. Validation Rules / Acceptance Criteria
-
-11\. Evaluation Focus
-
-12\. 72-Hour Deliverables
-
-13\. Scope Guidance
-
-
-
-\*\*Purpose:\*\* To provide the project requirements, expected implementation, acceptance criteria, testing requirements, and evaluation criteria.
-
-
-
-\*\*Note:\*\* This entry documents the original assignment brief. It is not a complete transcript of all subsequent prompts submitted to Antigravity.
-
+\
