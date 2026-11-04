@@ -1,4 +1,4 @@
-﻿# Analytical Workload Optimization & Data Engineering Pipeline
+# Analytical Workload Optimization & Data Engineering Pipeline
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![Tests](https://img.shields.io/badge/tests-24%20passed-brightgreen.svg)]()
@@ -164,11 +164,23 @@ The pipeline was benchmarked at three scales using the reproducible seed `seed=4
 | | Workload 3: Aggregation | 272.62 ms | 29.88 ms | **9.12x (89.0%)** |
 | | Workload 4: Filtering | 46.77 ms | 12.18 ms | **3.84x (74.0%)** |
 
-> **Engineering Trade-off â€” Ingestion Throughput vs. Read Latency**
+> **Engineering Trade-off - Ingestion Throughput vs. Read Latency**
 >
 > Creating and maintaining secondary indexes adds write overhead during ingestion. In the 100,000-order benchmark, optimized ingestion took 13.49 seconds compared with 10.25 seconds for the baseline.
 >
 > This illustrates a common analytical engineering trade-off: additional ingestion cost can be worthwhile when analytical queries are executed frequently. The recorded benchmark shows up to 9.12x faster execution for the aggregation workload.
+
+### Benchmark Methodology
+
+- **Dataset:** Synthetic e-commerce data generated with the fixed seed `42`.
+- **Scales:** 2,000, 25,000, and 100,000 orders.
+- **Database:** SQLite.
+- **Comparison:** Baseline and optimized database/query workloads.
+- **Execution plans:** SQLite `EXPLAIN QUERY PLAN` is used to inspect table scans and index access.
+- **Measurements:** Query execution latency and ingestion duration are recorded in the benchmark output.
+- **Reproducibility:** Run the demo pipeline to generate benchmark results locally.
+
+Benchmark timings are environment-dependent. They should be interpreted as measurements from the recorded project runs, not universal performance guarantees.
 
 ### Plan Comparison Highlights
 
@@ -195,13 +207,13 @@ This reduces the number of rows involved in the final aggregation.
 
 #### Workload 4: Sargable Filtering
 
-- **Baseline Predicate:**
+**Baseline Predicate:**
 
 ```sql
 strftime('%Y', order_date) = '2025'
 ```
 
-- **Optimized Predicate:**
+**Optimized Predicate:**
 
 ```sql
 order_date >= '2025-01-01'
@@ -254,50 +266,70 @@ PIPELINE DATA RECONCILIATION AUDIT (STATUS: PASSED)
 
 These results demonstrate exact row accounting and matching published revenue for the recorded run.
 
+### Quarantine Diagnostics
+
+**Orders**
+
+| Error Code | Rejected Record Count |
+|:---|---:|
+| `ERR_DUPLICATE_ORDER_KEY` | 642 |
+| `ERR_MALFORMED_ORDER_SCHEMA` | 1,876 |
+| `ERR_ORPHAN_CUSTOMER_ID` | 607 |
+| **Total** | **3,125** |
+
+**Order Items**
+
+| Error Code | Rejected Record Count |
+|:---|---:|
+| `ERR_MALFORMED_ITEM_SCHEMA` | 1,257 |
+| `ERR_ORPHAN_ORDER_ID` | 6,088 |
+| `ERR_ORPHAN_PRODUCT_ID` | 1,195 |
+| **Total** | **8,540** |
+
 ---
 
 ## 7. Project Structure
 
 ```text
 analytical-workload-optimization/
-â”‚
-â”œâ”€â”€ README.md
-â”œâ”€â”€ AI_DISCLOSURE.md
-â”œâ”€â”€ DATA_DICTIONARY.md
-â”œâ”€â”€ DESIGN_AND_TRADEOFFS.md
-â”œâ”€â”€ LICENSE
-â”œâ”€â”€ PROMPT_HISTORY.md
-â”œâ”€â”€ requirements.txt
-â”œâ”€â”€ pyproject.toml
-â”œâ”€â”€ run_demo.py
-â”‚
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ __init__.py
-â”‚   â”œâ”€â”€ config.py
-â”‚   â”œâ”€â”€ generator.py
-â”‚   â”œâ”€â”€ logger.py
-â”‚   â”œâ”€â”€ models.py
-â”‚   â”œâ”€â”€ optimizer.py
-â”‚   â”œâ”€â”€ pipeline.py
-â”‚   â”œâ”€â”€ reconciliation.py
-â”‚   â””â”€â”€ validator.py
-â”‚
-â”œâ”€â”€ tests/
-â”‚   â”œâ”€â”€ __init__.py
-â”‚   â”œâ”€â”€ test_generator.py
-â”‚   â”œâ”€â”€ test_idempotency.py
-â”‚   â”œâ”€â”€ test_optimizer.py
-â”‚   â”œâ”€â”€ test_pipeline.py
-â”‚   â”œâ”€â”€ test_reconciliation.py
-â”‚   â””â”€â”€ test_validator.py
-â”‚
-â””â”€â”€ data/
-    â”œâ”€â”€ sample/
-    â”‚   â””â”€â”€ Generated sample input datasets
-    â”‚
-    â””â”€â”€ output/
-        â”œâ”€â”€ benchmark_report.md
-        â””â”€â”€ reconciliation_report.md
+|
++-- README.md
++-- AI_DISCLOSURE.md
++-- DATA_DICTIONARY.md
++-- DESIGN_AND_TRADEOFFS.md
++-- LICENSE
++-- PROMPT_HISTORY.md
++-- requirements.txt
++-- pyproject.toml
++-- run_demo.py
+|
++-- src/
+|   +-- __init__.py
+|   +-- config.py
+|   +-- generator.py
+|   +-- logger.py
+|   +-- models.py
+|   +-- optimizer.py
+|   +-- pipeline.py
+|   +-- reconciliation.py
+|   +-- validator.py
+|
++-- tests/
+|   +-- __init__.py
+|   +-- test_generator.py
+|   +-- test_idempotency.py
+|   +-- test_optimizer.py
+|   +-- test_pipeline.py
+|   +-- test_reconciliation.py
+|   +-- test_validator.py
+|
++-- data/
+    +-- sample/
+    |   +-- Generated sample input datasets
+    |
+    +-- output/
+        +-- benchmark_report.md
+        +-- reconciliation_report.md
 ```
 
 Runtime logs are generated locally and are not required to be committed to the repository.
@@ -329,6 +361,12 @@ Run the tests:
 python -m pytest -v
 ```
 
+Latest verification:
+
+```text
+24 passed in 2.39s
+```
+
 ---
 
 ## 9. Assumptions, Known Limitations & Next Steps
@@ -346,6 +384,7 @@ python -m pytest -v
 - Indexes increase storage requirements and add write overhead. The actual impact depends on the dataset, schema, and index definitions.
 - Benchmark timings are environment-dependent and may vary across machines and repeated runs.
 - Synthetic data does not represent every production data distribution or workload pattern.
+- The recorded benchmark timings do not establish performance guarantees for other database engines or production environments.
 
 ### Next Steps
 
@@ -363,5 +402,9 @@ This project was developed with AI assistance using ChatGPT (OpenAI) and Google 
 
 AI assistance supported parts of the development process, including implementation guidance, debugging, testing, and documentation. The candidate reviewed, tested, and validated the resulting project and is responsible for understanding its implementation, design decisions, dependencies, and limitations.
 
-See [AI_DISCLOSURE.md](AI_DISCLOSURE.md) for further details about AI usage and human review.
+See the following files for further information:
 
+- [AI_DISCLOSURE.md](AI_DISCLOSURE.md) - AI usage and human review.
+- [PROMPT_HISTORY.md](PROMPT_HISTORY.md) - Available AI prompt history and documented limitations.
+
+Historical prompt coverage is not represented as complete where exact prompt records have not been retrieved. The prompt-history document distinguishes available exact prompts from topic summaries and outstanding retrieval limitations.
