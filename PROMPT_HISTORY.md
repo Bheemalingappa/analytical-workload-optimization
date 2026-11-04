@@ -1,14 +1,11 @@
-﻿
-
 # AI Prompt History
 
 
 
 ## AI Tools Used
 
-- ChatGPT
-
-- Google Antigravity
+* ChatGPT
+* Google Antigravity
 
 
 
@@ -22,7 +19,7 @@ Only prompts that are available in the conversation history are reproduced as ex
 
 
 
-## 1. ChatGPT
+## 1\. ChatGPT
 
 
 
@@ -30,7 +27,7 @@ Only prompts that are available in the conversation history are reproduced as ex
 
 
 
-"The AI tools I used for my YottaFlex project are: ChatGPT, Antigravity. Help me prepare an accurate PROMPT_HISTORY.md using the actual prompts available, and identify what I must retrieve from other tool histories."
+"The AI tools I used for my YottaFlex project are: ChatGPT, Antigravity. Help me prepare an accurate PROMPT\_HISTORY.md using the actual prompts available, and identify what I must retrieve from other tool histories."
 
 
 
@@ -38,11 +35,9 @@ Only prompts that are available in the conversation history are reproduced as ex
 
 ChatGPT was also used for discussion and guidance relating to:
 
-- Understanding the YottaFlex assignment and submission requirements.
-
-- Reviewing project structure and Git status.
-
-- Preparing project documentation and submission checks.
+* Understanding the YottaFlex assignment and submission requirements.
+* Reviewing project structure and Git status.
+* Preparing project documentation and submission checks.
 
 
 
@@ -50,7 +45,7 @@ These are topic summaries, not verbatim prompts.
 
 
 
-## 2. Google Antigravity
+## 2\. Google Antigravity
 
 
 
@@ -62,18 +57,72 @@ The original prompt history still needs to be retrieved from the Antigravity con
 
 
 
-## 3. Accuracy and Limitations
+## 3\. Accuracy and Limitations
 
 
 
-- Exact prompts are quoted only when their wording is available.
-
-- Topic summaries are clearly distinguished from verbatim prompts.
-
-- Historical prompts from Antigravity and earlier ChatGPT conversations remain to be retrieved.
-
-- AI-generated suggestions and code must be reviewed and understood by the project author.
+* Exact prompts are quoted only when their wording is available.
+* Topic summaries are clearly distinguished from verbatim prompts.
+* Historical prompts from Antigravity and earlier ChatGPT conversations remain to be retrieved.
+* AI-generated suggestions and code must be reviewed and understood by the project author.
 
 
 
+\---
+
+
+
+\## Actual Prompt — YottaFlex Assignment Brief
+
+
+
+\*\*AI Tool:\*\* Google Antigravity  
+
+\*\*Status:\*\* Confirmed as submitted by the candidate  
+
+\*\*Prompt Type:\*\* Original assignment brief
+
+
+
+\### Prompt Content
+
+
+
+The complete YottaFlex assignment brief was provided to Google Antigravity, including:
+
+
+
+1\. Business Context / Problem
+
+2\. Objective and Scope
+
+3\. Primary Actors / Systems
+
+4\. Business Workflow and Rules
+
+5\. Entities and Relationships
+
+6\. ID / Nomenclature Conventions
+
+7\. Implementation Instructions (Steps 1–10)
+
+8\. Suggested Volume and Coverage
+
+9\. Required Edge Cases / Negative Scenarios
+
+10\. Validation Rules / Acceptance Criteria
+
+11\. Evaluation Focus
+
+12\. 72-Hour Deliverables
+
+13\. Scope Guidance
+
+
+
+\*\*Purpose:\*\* To provide the project requirements, expected implementation, acceptance criteria, testing requirements, and evaluation criteria.
+
+
+
+\*\*Note:\*\* This entry documents the original assignment brief. It is not a complete transcript of all subsequent prompts submitted to Antigravity.
 
