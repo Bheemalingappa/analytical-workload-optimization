@@ -6,10 +6,10 @@ Comparative analysis of baseline (unoptimized) vs. optimized data storage & quer
 
 | Workload ID | Optimization Category | Baseline (ms) | Optimized (ms) | Speedup | Latency Reduction |
 |:---|:---|:---:|:---:|:---:|:---:|
-| **WORKLOAD_1_SCAN** | Inefficient Scan vs Covering Index Scan | 16.09 ms | **4.87 ms** | **3.31x** | **69.8%** |
-| **WORKLOAD_2_JOIN** | Inefficient Join (Unindexed Scan) vs Indexed Foreign Key Join | 2.41 ms | **1.41 ms** | **1.71x** | **41.6%** |
-| **WORKLOAD_3_AGGREGATION** | Inefficient String Grouping vs Pushdown Pre-aggregation & Covering Index | 297.87 ms | **30.27 ms** | **9.84x** | **89.8%** |
-| **WORKLOAD_4_FILTERING** | Non-Sargable Function Filter vs Sargable Index Range Filter | 48.12 ms | **11.88 ms** | **4.05x** | **75.3%** |
+| **WORKLOAD_1_SCAN** | Inefficient Scan vs Covering Index Scan | 14.35 ms | **4.42 ms** | **3.24x** | **69.2%** |
+| **WORKLOAD_2_JOIN** | Inefficient Join (Unindexed Scan) vs Indexed Foreign Key Join | 2.30 ms | **0.87 ms** | **2.63x** | **61.9%** |
+| **WORKLOAD_3_AGGREGATION** | Inefficient String Grouping vs Pushdown Pre-aggregation & Covering Index | 272.62 ms | **29.88 ms** | **9.12x** | **89.0%** |
+| **WORKLOAD_4_FILTERING** | Non-Sargable Function Filter vs Sargable Index Range Filter | 46.77 ms | **12.18 ms** | **3.84x** | **74.0%** |
 
 ---
 
@@ -18,9 +18,9 @@ Comparative analysis of baseline (unoptimized) vs. optimized data storage & quer
 ### WORKLOAD_1_SCAN: Date Range & Status High-Value Orders
 **Optimization Focus:** Inefficient Scan vs Covering Index Scan
 
-- **Baseline Latency:** `16.089 ms`
-- **Optimized Latency:** `4.867 ms`
-- **Measured Speedup:** `3.31x` (69.8% latency drop)
+- **Baseline Latency:** `14.348 ms`
+- **Optimized Latency:** `4.424 ms`
+- **Measured Speedup:** `3.24x` (69.2% latency drop)
 - **Result Rows:** `100`
 
 #### Query Execution Plans Comparison
@@ -65,9 +65,9 @@ SELECT customer_id, order_date, total_amount
 ### WORKLOAD_2_JOIN: Enterprise Customers Electronics Purchase History
 **Optimization Focus:** Inefficient Join (Unindexed Scan) vs Indexed Foreign Key Join
 
-- **Baseline Latency:** `2.406 ms`
-- **Optimized Latency:** `1.406 ms`
-- **Measured Speedup:** `1.71x` (41.6% latency drop)
+- **Baseline Latency:** `2.296 ms`
+- **Optimized Latency:** `0.874 ms`
+- **Measured Speedup:** `2.63x` (61.9% latency drop)
 - **Result Rows:** `200`
 
 #### Query Execution Plans Comparison
@@ -118,9 +118,9 @@ SELECT c.customer_name, p.product_name, fo.order_date, foi.quantity, foi.line_to
 ### WORKLOAD_3_AGGREGATION: Product Category Revenue & Volume Aggregation
 **Optimization Focus:** Inefficient String Grouping vs Pushdown Pre-aggregation & Covering Index
 
-- **Baseline Latency:** `297.872 ms`
-- **Optimized Latency:** `30.273 ms`
-- **Measured Speedup:** `9.84x` (89.8% latency drop)
+- **Baseline Latency:** `272.625 ms`
+- **Optimized Latency:** `29.882 ms`
+- **Measured Speedup:** `9.12x` (89.0% latency drop)
 - **Result Rows:** `5`
 
 #### Query Execution Plans Comparison
@@ -173,9 +173,9 @@ SELECT p.category, SUM(sub.items_sold) AS items_sold, ROUND(SUM(sub.total_revenu
 ### WORKLOAD_4_FILTERING: Annual Revenue Summary (Sargable vs Non-Sargable Filtering)
 **Optimization Focus:** Non-Sargable Function Filter vs Sargable Index Range Filter
 
-- **Baseline Latency:** `48.123 ms`
-- **Optimized Latency:** `11.882 ms`
-- **Measured Speedup:** `4.05x` (75.3% latency drop)
+- **Baseline Latency:** `46.771 ms`
+- **Optimized Latency:** `12.184 ms`
+- **Measured Speedup:** `3.84x` (74.0% latency drop)
 - **Result Rows:** `1`
 
 #### Query Execution Plans Comparison
